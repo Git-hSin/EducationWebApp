@@ -1,0 +1,335 @@
+Year,State,City,SchoolName,NcesCharterSchool,NcesMagnetSchool,SchoolLevel,Nces Total Enrollment,Low Grade,High Grade,Percent FRL,EEI Score,EEI Category,Math Est Prof,Math Ach Cat,Reading Est Prof,Reading Ach Cat,Percent Nat Am,Percent Asian,Percent Hispanic,Percent Black,Percent White,Percent Pac Isl,Percent Two Or More Races
+2015,Massachusetts,Boston,Bridge Boston Charter School,Charter,,Elem,189,K,3,100%,No Score,-,71%,Green,54%,Green,0%,2%,34%,58%,1%,0%,6%
+2015,Massachusetts,Boston,Brooke Charter School Mattapan,,,"Elem, Middle",-,K,8,-,No Score,-,76%,Green,73%,Green,-,-,-,-,-,-,-
+2015,New York,New York,Concourse Village Elementary School,,,Elem,-,K,3,-,No Score,-,78%,Green,59%,Green,-,-,-,-,-,-,-
+2015,Georgia,Augusta,Davidson Magnet School,,Magnet,"Middle, High",758,6,12,97%,No Score,-,76%,Green,79%,Green,0%,5%,3%,43%,44%,0%,4%
+2015,New York,New York,Family Life Academy Charter School Ii,,,Elem,-,K,3,-,No Score,-,74%,Green,73%,Green,-,-,-,-,-,-,-
+2015,Missouri,St. Louis,Kennard/Classical Jr. Academy,,Magnet,Elem,377,K,5,100%,No Score,-,87%,Green,95%,Green,0%,9%,2%,30%,59%,0%,0%
+2015,Tennessee,Memphis,Maxine Smith Steam Academy,,,Middle,-,6,8,-,No Score,-,99%,Green,94%,Green,-,-,-,-,-,-,-
+2015,Missouri,St. Louis,Mckinley Class. Leadership Ac.,,,"Middle, High",535,6,12,100%,No Score,-,52%,Green,69%,Green,1%,7%,4%,47%,42%,0%,0%
+2015,Ohio,Akron,Miller-South Visual Performing Arts,,,"Elem, Middle",499,4,8,18%,No Score,-,57%,Green,76%,Green,0%,3%,3%,17%,70%,0%,6%
+2015,New York,New York,Neighborhood Charter School of Harlem,,,Elem,-,K,3,-,No Score,-,81%,Green,58%,Green,-,-,-,-,-,-,-
+2015,New York,New York,Success Academy Bed-Stuy 1,,,Elem,-,K,4,-,No Score,-,96%,Green,82%,Green,-,-,-,-,-,-,-
+2015,New York,New York,Success Academy Bed-Stuy 2,,,Elem,-,K,4,-,No Score,-,79%,Green,55%,Green,-,-,-,-,-,-,-
+2015,New York,New York,Success Academy Cobble Hill,,,Elem,-,K,3,-,No Score,-,91%,Green,90%,Green,-,-,-,-,-,-,-
+2015,New York,New York,Success Academy Upper West,,,Elem,-,K,4,-,No Score,-,96%,Green,71%,Green,-,-,-,-,-,-,-
+2015,New York,New York,Success Academy Williamsburg,,,Elem,-,K,3,-,No Score,-,97%,Green,70%,Green,-,-,-,-,-,-,-
+2015,Texas,Houston,Two Dimensions/Vickery,Charter,,"Elem, Middle",194,K,8,94%,No Score,-,76%,Green,53%,Green,0%,0%,7%,93%,0%,0%,0%
+2015,Texas,Plano,Andrews Elementary School,,,Elem,699,K,5,3%,100,Far Above Average,98%,Green,96%,Green,0%,68%,5%,3%,22%,0%,1%
+2015,New York,New York,Baccalaureate School for Global Education,,,"Middle, High",476,7,12,43%,100,Far Above Average,100%,Green,100%,Green,1%,47%,17%,2%,32%,-,2%
+2015,Texas,Plano,Borchardt Elementary School,,,Elem,727,K,5,4%,100,Far Above Average,98%,Green,96%,Green,1%,60%,6%,6%,25%,0%,3%
+2015,Texas,Midland,Carver Center,,,Elem,431,2,6,8%,100,Far Above Average,98%,Green,96%,Green,0%,3%,25%,2%,67%,0%,3%
+2015,Tennessee,Murfreesboro,Central Magnet School,,Magnet,"Middle, High",1230,6,12,9%,100,Far Above Average,99%,Green,99%,Green,0%,6%,3%,3%,87%,0%,1%
+2015,Virginia,Richmond,Fairfield Court Elementary School,,,Elem,541,K,5,97%,100,Far Above Average,97%,Green,97%,Green,0%,1%,1%,96%,0%,0%,2%
+2015,New York,New York,I.S. 187 The Christa Mcauliffe School,,,Middle,1020,6,8,63%,100,Far Above Average,96%,Green,94%,Green,0%,70%,5%,1%,23%,-,1%
+2015,Texas,Dallas,Irma Rangel Young Womens Leadershi,,Magnet,Middle,283,6,8,76%,100,Far Above Average,97%,Green,96%,Green,0%,2%,71%,14%,12%,0%,1%
+2015,Virginia,Virginia Beach,Kemps Landing Magnet,,Magnet,Middle,1098,6,8,10%,100,Far Above Average,97%,Green,97%,Green,0%,16%,6%,5%,64%,0%,9%
+2015,Texas,Dallas,William B Travis Acad/Vangrd For A,,Magnet,"Elem, Middle",274,4,8,34%,100,Far Above Average,97%,Green,96%,Green,0%,8%,28%,11%,50%,0%,4%
+2015,Texas,Dallas,William B Travis Acdmy/Vngrd For A,,Magnet,Elem,132,4,5,18%,100,Far Above Average,98%,Green,96%,Green,1%,7%,15%,4%,73%,0%,1%
+2015,Virginia,Norfolk,Willoughby Elementary School,,,Elem,204,K,5,57%,100,Far Above Average,99%,Green,98%,Green,0%,2%,11%,36%,44%,0%,6%
+2015,Illinois,Chicago,Young Magnet High School,,Magnet,"Middle, High",2205,7,12,43%,100,Far Above Average,100%,Green,100%,Green,0%,15%,28%,24%,29%,0%,4%
+2015,California,Carson,California Academy Of Mathematics And Science,,Magnet,High,676,9,12,45%,99.9,Far Above Average,90%,Green,95%,Green,0%,28%,42%,14%,11%,1%,4%
+2015,Texas,Austin,Clayton Elementary School,,,Elem,881,K,5,3%,99.9,Far Above Average,98%,Green,96%,Green,0%,14%,15%,1%,67%,0%,4%
+2015,Texas,Dallas,Dallas Environmental Science Acade,,Magnet,Middle,427,6,8,84%,99.9,Far Above Average,83%,Green,90%,Green,0%,1%,80%,14%,4%,0%,0%
+2015,Texas,Houston,Frostwood Elementary School,,,Elem,700,K,5,3%,99.9,Far Above Average,98%,Green,96%,Green,0%,26%,8%,1%,60%,0%,4%
+2015,New York,New York,Medgar Evers College Preparatory School,,,"Middle, High",1269,6,12,73%,99.9,Far Above Average,91%,Green,77%,Green,1%,3%,4%,90%,1%,-,2%
+2015,New York,New York,Nyc Lab Ms For Collaborative Studies,,,Middle,557,6,8,34%,99.9,Far Above Average,94%,Green,89%,Green,0%,45%,7%,2%,39%,-,8%
+2015,New York,New York,P.S. 172 Beacon School Of Excellence,,,Elem,597,K,5,87%,99.9,Far Above Average,97%,Green,76%,Green,0%,6%,78%,4%,12%,-,0%
+2015,New York,New York,Scholars  Academy,,,"Middle, High",1302,6,12,50%,99.9,Far Above Average,89%,Green,91%,Green,1%,22%,18%,18%,41%,-,0%
+2015,Illinois,Chicago,Skinner North Elementary School,,,Elem,418,K,6,20%,99.9,Far Above Average,97%,Green,94%,Green,0%,25%,12%,14%,41%,1%,6%
+2015,Texas,Houston,West University Elementary School,,,Elem,1266,K,5,1%,99.9,Far Above Average,98%,Green,96%,Green,0%,18%,9%,2%,65%,0%,5%
+2015,Texas,Fort Worth,Young Women's Leadership Academy,,,"Middle, High",312,6,12,62%,99.9,Far Above Average,84%,Green,96%,Green,0%,2%,58%,30%,8%,0%,2%
+2015,Virginia,Richmond,George W. Carver Elementary School,,,Elem,561,K,5,94%,99.8,Far Above Average,81%,Green,84%,Green,0%,1%,2%,94%,1%,0%,2%
+2015,New York,New York,I.S. 98 Bay Academy,,,Middle,1445,6,8,58%,99.8,Far Above Average,87%,Green,79%,Green,0%,28%,9%,3%,57%,-,1%
+2015,Indiana,Indianapolis,Sidener Academy for High Ability Students,,,"Elem, Middle",353,2,8,42%,99.8,Far Above Average,95%,Green,93%,Green,0%,3%,12%,26%,49%,0%,10%
+2015,Massachusetts,Boston,Boston Latin School,,,"Middle, High",2439,7,12,26%,99.7,Far Above Average,94%,Green,93%,Green,0%,28%,12%,9%,47%,0%,3%
+2015,California,San Bernardino,Middle College High School,,,High,273,9,12,86%,99.7,Far Above Average,67%,Green,91%,Green,1%,5%,74%,10%,11%,0%,1%
+2015,New York,New York,Tag Young Scholars,,,"Elem, Middle",538,K,8,50%,99.7,Far Above Average,90%,Green,86%,Green,2%,30%,23%,29%,13%,-,3%
+2015,Illinois,Rockford,Washington Gifted School,,Magnet,"Elem, Middle",514,1,8,31%,99.7,Far Above Average,88%,Green,89%,Green,0%,13%,8%,6%,68%,0%,5%
+2015,Texas,San Antonio,Young Women's Leadership Academy,Charter,,"Middle, High",415,6,12,60%,99.7,Far Above Average,82%,Green,87%,Green,0%,1%,91%,4%,4%,0%,0%
+2015,Texas,Dallas,Henry W Longfellow Career Explorat,,Magnet,Middle,425,6,8,83%,99.6,Far Above Average,75%,Green,88%,Green,0%,2%,77%,11%,8%,0%,1%
+2015,Texas,Houston,Project Chrysalis Middle School,Charter,,Middle,236,6,8,91%,99.6,Far Above Average,75%,Green,70%,Green,0%,3%,97%,0%,1%,0%,0%
+2015,New York,New York,Queens Gateway To Health Sciences Secondary School,,,"Middle, High",779,6,12,71%,99.6,Far Above Average,82%,Green,82%,Green,3%,43%,12%,38%,3%,-,1%
+2015,New York,New York,Success Academy Bronx 1,Charter,,Elem,535,K,4,83%,99.6,Far Above Average,94%,Green,70%,Green,0%,1%,42%,54%,1%,-,1%
+2015,New York,New York,Columbia Secondary School,,,"Middle, High",660,6,12,55%,99.5,Far Above Average,84%,Green,80%,Green,1%,13%,44%,22%,20%,-,1%
+2015,New York,New York,Harlem Success Academy Charter School 3,Charter,,"Elem, Middle",803,K,7,81%,99.5,Far Above Average,89%,Green,73%,Green,2%,1%,33%,62%,2%,-,0%
+2015,California,Oakland,Oakland Charter High School,Charter,,High,350,9,12,80%,99.5,Far Above Average,65%,Green,77%,Green,0%,45%,47%,4%,3%,0%,1%
+2015,Illinois,Rockford,Thurgood Marshall School,,,"Elem, Middle",556,4,8,45%,99.5,Far Above Average,91%,Green,85%,Green,0%,12%,9%,16%,58%,0%,5%
+2015,New York,New York,All City Leadership Secondary School,,,"Middle, High",356,6,12,89%,99.4,Far Above Average,76%,Green,68%,Green,0%,7%,77%,13%,4%,-,0%
+2015,Colorado,Aurora,Aurora Quest K-8,,,"Elem, Middle",600,K,8,23%,99.4,Far Above Average,87%,Green,90%,Green,1%,11%,19%,8%,52%,1%,8%
+2015,Illinois,Joliet,Eisenhower Academy,,Magnet,Elem,262,1,5,98%,99.4,Far Above Average,65%,Green,73%,Green,1%,1%,28%,27%,39%,0%,3%
+2015,Massachusetts,Boston,City On A Hill Charter Public School,Charter,,High,287,9,12,83%,99.3,Far Above Average,80%,Green,94%,Green,0%,1%,33%,63%,2%,0%,1%
+2015,Texas,Corpus Christi,Windsor Park G/T,,,Elem,617,1,5,30%,99.3,Far Above Average,98%,Green,87%,Green,0%,12%,46%,2%,38%,0%,1%
+2015,New Jersey,Elizabeth,Terence C. Reilly School #7,,,"Elem, Middle",1004,2,8,72%,99.3,Far Above Average,80%,Green,79%,Green,0%,4%,71%,12%,13%,0%,0%
+2015,Arizona,Chandler,Chandler Traditional Academy - Liberty Campus,,,Elem,709,K,6,13%,99.2,Far Above Average,90%,Green,82%,Green,0%,18%,16%,5%,57%,0%,3%
+2015,California,Los Angeles,KIPP Raices Academy,Charter,,Elem,536,K,4,91%,99.2,Far Above Average,71%,Green,63%,Green,0%,0%,99%,1%,1%,0%,0%
+2015,Illinois,Chicago,Mcdade Elementary Classical School,,Magnet,Elem,182,K,6,47%,99.2,Far Above Average,83%,Green,91%,Green,0%,1%,3%,92%,2%,1%,2%
+2015,New York,New York,South Bronx Classical Charter School,Charter,,"Elem, Middle",373,K,7,70%,99.2,Far Above Average,76%,Green,69%,Green,0%,2%,56%,41%,1%,-,0%
+2015,California,Inglewood,Animo Inglewood Charter High School,Charter,,High,633,9,12,90%,99.1,Far Above Average,68%,Green,64%,Green,0%,0%,86%,13%,0%,0%,1%
+2015,California,Stockton,Elkhorn School,,,"Elem, Middle",286,4,8,37%,99.1,Far Above Average,80%,Green,81%,Green,1%,52%,21%,2%,23%,0%,1%
+2015,California,Fresno,Manchester Gate,,Magnet,Elem,749,2,6,46%,99.1,Far Above Average,83%,Green,84%,Green,1%,9%,42%,4%,42%,1%,1%
+2015,Ohio,Columbus,Columbus Preparatory Academy,Charter,,"Elem, Middle",673,K,8,51%,99,Far Above Average,82%,Green,74%,Green,0%,10%,7%,12%,57%,0%,13%
+2015,New York,New York,Harlem Success Academy Charter School 4,Charter,,"Elem, Middle",618,K,7,77%,99,Far Above Average,93%,Green,67%,Green,1%,1%,27%,68%,3%,-,1%
+2015,Texas,Houston,Houston Gateway Academy - Coral Ca,Charter,,"Elem, Middle, High",715,K,12,91%,99,Far Above Average,84%,Green,64%,Green,0%,0%,98%,1%,1%,0%,0%
+2015,Illinois,Springfield,Iles Elementary School,,Magnet,"Elem, Middle",448,1,8,25%,99,Far Above Average,85%,Green,87%,Green,0%,17%,3%,12%,58%,0%,11%
+2015,New York,New York,Ps 125 Ralph Bunche,,,Elem,223,K,5,83%,99,Far Above Average,62%,Green,60%,Green,1%,8%,44%,41%,5%,-,2%
+2015,Illinois,Chicago,Haines Elementary School,,,"Elem, Middle",644,K,8,96%,98.9,Far Above Average,64%,Green,57%,Green,0%,84%,2%,13%,0%,1%,0%
+2015,Texas,Houston,Kipp Sharp College Prep,Charter,,Elem,890,K,4,91%,98.9,Far Above Average,78%,Green,58%,Green,1%,4%,76%,17%,1%,0%,0%
+2015,California,Stockton,Middle College High School,,,High,242,9,12,46%,98.8,Far Above Average,79%,Green,99%,Green,1%,57%,24%,3%,10%,1%,4%
+2015,California,Stockton,Stockton Unified Early College Academy,Charter,,High,375,9,12,68%,98.8,Far Above Average,77%,Green,85%,Green,2%,50%,36%,3%,7%,1%,1%
+2015,California,Oakland,Downtown Charter Academy,Charter,,Middle,248,6,8,84%,98.7,Far Above Average,72%,Green,59%,Green,0%,81%,15%,2%,2%,0%,1%
+2015,Minnesota,Minneapolis,Friendship Acdmy Of Fine Arts Chtr.,Charter,,Elem,136,K,6,93%,98.7,Far Above Average,87%,Green,66%,Green,1%,0%,4%,90%,4%,0%,1%
+2015,Georgia,Columbus,Britt David Elementary Computer Magnet Academy,,Magnet,Elem,575,K,5,14%,98.6,Far Above Average,89%,Green,81%,Green,1%,25%,6%,18%,46%,0%,4%
+2015,California,San Francisco,Chin (John Yehall) Elementary School,,,Elem,273,K,5,85%,98.6,Far Above Average,83%,Green,56%,Green,0%,90%,1%,0%,3%,1%,4%
+2015,Illinois,Chicago,Poe Elementary Classical School,,Magnet,Elem,199,K,6,49%,98.6,Far Above Average,84%,Green,77%,Green,0%,1%,5%,91%,2%,0%,2%
+2015,California,Lancaster,Soar High (Students on Academic Rise) School,,,High,409,9,12,57%,98.6,Far Above Average,59%,Green,85%,Green,0%,5%,54%,13%,22%,1%,3%
+2015,New York,New York,Success Academy Bronx 2,,,Elem,-,K,4,-,98.6,Far Above Average,93%,Green,64%,Green,-,-,-,-,-,-,-
+2015,New Jersey,Jersey City,The Academy I Middle School,,,Middle,477,6,8,73%,98.6,Far Above Average,76%,Green,68%,Green,0%,38%,18%,28%,13%,1%,2%
+2015,Massachusetts,Boston,Edward Brooke Charter School,Charter,,"Elem, Middle",506,K,8,72%,98.5,Far Above Average,86%,Green,83%,Green,0%,1%,24%,69%,1%,0%,4%
+2015,Texas,Austin,Graham Elementary School,,,Elem,768,K,5,88%,98.5,Far Above Average,73%,Green,58%,Green,0%,1%,77%,14%,6%,0%,1%
+2015,California,Santa Ana,Middle College High School,,,High,328,9,12,91%,98.5,Far Above Average,49%,Green,95%,Green,0%,1%,97%,1%,1%,0%,0%
+2015,California,Los Angeles,Downtown Business High School,,Magnet,High,1060,9,12,84%,98.4,Far Above Average,55%,Green,64%,Green,0%,32%,59%,5%,2%,0%,1%
+2015,California,Fresno,Edison Computech School,,Magnet,Middle,817,7,8,64%,98.4,Far Above Average,63%,Green,82%,Green,0%,15%,57%,5%,21%,1%,1%
+2015,New York,New York,Harlem Success Academy Charter School 5,Charter,,Elem,523,K,5,59%,98.3,Far Above Average,88%,Green,65%,Green,0%,1%,30%,66%,1%,-,2%
+2015,Georgia,Atlanta,Kittredge Magnet School,,Magnet,Elem,456,4,6,11%,98.3,Far Above Average,83%,Green,90%,Green,1%,11%,4%,20%,60%,0%,5%
+2015,California,Sacramento,West Campus,,,High,850,9,12,56%,98.3,Far Above Average,67%,Green,71%,Green,0%,34%,35%,7%,18%,1%,6%
+2015,Arizona,Chandler,Arizona College Prep Oakland Campus,,,Middle,589,6,8,10%,98.2,Far Above Average,96%,Green,77%,Green,1%,18%,18%,3%,57%,0%,4%
+2015,New Jersey,Newark,North Star Academy Charter School of Newark,Charter,,"Elem, Middle, High",3403,K,12,84%,98.2,Far Above Average,70%,Green,61%,Green,0%,2%,3%,89%,5%,0%,0%
+2015,California,San Francisco,Lowell High School,,,High,2718,9,12,48%,98.1,Far Above Average,79%,Green,69%,Green,0%,65%,10%,2%,14%,1%,7%
+2015,New York,New York,"New Explorations Into Science, Tech and Math High School",,,"Elem, Middle, High",1717,K,12,28%,98.1,Far Above Average,92%,Green,83%,Green,1%,33%,11%,9%,42%,-,4%
+2015,New York,New York,Ps 184 Shuang Wen,,,"Elem, Middle",663,K,8,69%,98.1,Far Above Average,82%,Green,67%,Green,1%,75%,9%,3%,9%,-,3%
+2015,New Jersey,Newark,Robert Treat Academy Charter School,Charter,,"Elem, Middle",625,K,8,72%,98.1,Far Above Average,78%,Green,63%,Green,0%,1%,63%,32%,3%,0%,0%
+2015,Massachusetts,Boston,Brooke Charter School East Boston,,,"Elem, Middle",-,K,7,-,98,Far Above Average,88%,Green,81%,Green,-,-,-,-,-,-,-
+2015,Texas,Brownsville,Castaneda Elementary School,,,Elem,568,K,5,95%,98,Far Above Average,73%,Green,55%,Green,0%,0%,100%,0%,0%,0%,0%
+2015,Texas,Grand Prairie,Grand Prairie Collegiate Institute,,,"Middle, High",-,6,12,-,98,Far Above Average,79%,Green,75%,Green,-,-,-,-,-,-,-
+2015,Texas,Dallas,Harry Stone Montessori Academy,,Magnet,Middle,194,6,8,66%,98,Far Above Average,72%,Green,75%,Green,0%,0%,51%,41%,6%,0%,2%
+2015,New York,New York,The Active Learning Elementary School,,,Elem,440,K,3,79%,98,Far Above Average,72%,Green,59%,Green,0%,87%,7%,1%,3%,-,1%
+2015,California,Los Angeles,Francisco Bravo Medical Magnet High School,,Magnet,High,1841,9,12,90%,97.9,Far Above Average,49%,Green,62%,Green,0%,12%,79%,2%,6%,0%,0%
+2015,New York,New York,Harlem Success Academy Charter School 2,Charter,,Elem,739,K,6,60%,97.9,Far Above Average,79%,Green,63%,Green,1%,1%,23%,73%,1%,-,0%
+2015,Texas,Lubbock,Rise Academy,Charter,,"Elem, Middle",267,K,8,86%,97.9,Far Above Average,74%,Green,55%,Green,0%,0%,28%,68%,2%,0%,1%
+2015,New York,New York,Robert F Wagner Junior Secondary School-Arts and Technology,,,"Middle, High",614,7,12,81%,97.9,Far Above Average,68%,Green,73%,Green,0%,21%,60%,5%,13%,-,1%
+2015,New Jersey,Elizabeth,No 22 William F Halloran,,,"Elem, Middle",862,2,8,72%,97.9,Far Above Average,73%,Green,66%,Green,0%,5%,68%,14%,13%,0%,0%
+2015,New York,New York,East West School Of International Studies,,,"Middle, High",664,6,12,85%,97.7,Far Above Average,68%,Green,51%,Green,0%,68%,14%,11%,5%,-,1%
+2015,Texas,Dallas,George Bannerman Dealey Internatio,,,Middle,189,6,8,44%,97.7,Far Above Average,69%,Green,84%,Green,1%,8%,43%,11%,34%,1%,2%
+2015,New York,New York,Mark Twain is 239 for the Gifted and Talented,,,Middle,1300,6,8,30%,97.7,Far Above Average,75%,Green,80%,Green,0%,28%,6%,9%,54%,-,3%
+2015,Texas,McAllen,Idea Mcallen College Preparatory,,,Middle,-,6,8,-,97.6,Far Above Average,61%,Green,54%,Green,-,-,-,-,-,-,-
+2015,Illinois,Chicago,Healy Elementary School,,,"Elem, Middle",1391,K,8,91%,97.4,Far Above Average,64%,Green,50%,Green,0%,64%,24%,1%,9%,2%,1%
+2015,New York,New York,Ps 748 Brooklyn School For Global Scholars,,,Elem,573,K,5,63%,97.3,Far Above Average,75%,Green,73%,Green,1%,39%,20%,0%,39%,-,1%
+2015,California,Oakland,American Indian Public High School,Charter,,High,214,9,12,71%,97.2,Far Above Average,64%,Green,52%,Green,0%,65%,16%,14%,2%,1%,2%
+2015,Massachusetts,Boston,Boston Latin Academy,,,"Middle, High",1723,7,12,48%,97.1,Far Above Average,78%,Green,76%,Green,1%,22%,21%,26%,28%,0%,2%
+2015,California,Oakland,Lighthouse Community Charter High School,Charter,,High,262,9,12,84%,97.1,Far Above Average,51%,Green,52%,Green,0%,5%,84%,8%,1%,1%,2%
+2015,Texas,Amarillo,Windsor Elementary School,,,Elem,468,K,5,18%,97.1,Far Above Average,98%,Green,78%,Green,0%,3%,17%,2%,76%,0%,2%
+2015,Texas,Waco,La Vega Elementary School,,,Elem,702,1,3,85%,97,Far Above Average,62%,Green,61%,Green,0%,0%,56%,22%,21%,0%,2%
+2015,Texas,Laredo,Kazen Elementary School,,,Elem,550,K,5,90%,96.8,Far Above Average,69%,Green,51%,Green,0%,0%,100%,0%,0%,0%,0%
+2015,Louisiana,New Orleans,Lake Forest Elementary Charter School,Charter,Magnet,"Elem, Middle",531,K,8,77%,96.8,Far Above Average,59%,Green,82%,Green,1%,7%,1%,90%,1%,0%,1%
+2015,New York,New York,Success Academy Harlem 1,Charter,,"Elem, Middle",931,K,9,82%,96.8,Far Above Average,85%,Green,56%,Green,3%,1%,20%,73%,2%,-,0%
+2015,California,El Cajon,Grossmont Middle College High School,,,High,79,11,12,25%,96.7,Far Above Average,70%,Green,99%,Green,1%,3%,20%,5%,59%,0%,11%
+2015,Tennessee,Nashville,Martin Luther King Junior Magnet- Pearl High School,,Magnet,"Middle, High",1224,7,12,37%,96.7,Far Above Average,67%,Green,84%,Green,0%,12%,5%,37%,42%,0%,4%
+2015,Louisiana,Baton Rouge,Westdale Heights Academic Magnet School,,Magnet,Elem,445,K,5,16%,96.7,Far Above Average,91%,Green,76%,Green,0%,8%,2%,43%,43%,1%,3%
+2015,New York,New York,Ps 203 Oakland Gardens,,,Elem,905,K,5,39%,96.5,Far Above Average,77%,Green,65%,Green,0%,70%,9%,2%,16%,-,2%
+2015,New York,New York,Jhs 74 Nathaniel Hawthorne,,,Middle,1047,6,8,46%,96.4,Far Above Average,69%,Green,62%,Green,0%,65%,9%,5%,19%,-,1%
+2015,California,San Francisco,Ulloa Elementary School,,,Elem,515,K,5,64%,96.4,Far Above Average,75%,Green,59%,Green,0%,84%,4%,1%,5%,1%,5%
+2015,Arizona,Chandler,Arizona College Prep Erie Campus,,,"Middle, High",486,7,12,12%,96.3,Far Above Average,81%,Green,73%,Green,1%,20%,14%,6%,59%,0%,1%
+2015,New York,New York,Jhs 201 The Dyker Heights,,,Middle,1416,6,8,74%,96.3,Far Above Average,57%,Green,59%,Green,0%,45%,14%,0%,40%,-,0%
+2015,Texas,Laredo,Trautmann Elementary School,,,Elem,792,K,5,54%,96.3,Far Above Average,76%,Green,61%,Green,0%,0%,98%,0%,1%,0%,0%
+2015,Texas,Grand Prairie,Grand Prairie Fine Arts Academy,,,"Middle, High",-,6,12,-,96.2,Far Above Average,66%,Green,78%,Green,-,-,-,-,-,-,-
+2015,New York,New York,The Anderson School,,,"Elem, Middle",572,K,8,10%,96,Far Above Average,78%,Green,89%,Green,0%,28%,9%,4%,54%,-,5%
+2015,New York,New York,Young Women's Leadership School of Queens,,,"Middle, High",560,6,12,76%,96,Far Above Average,50%,Green,60%,Green,2%,29%,16%,49%,2%,-,3%
+2015,Texas,El Paso,Glen Cove Elementary School,,,Elem,869,K,5,81%,95.9,Far Above Average,74%,Green,54%,Green,0%,0%,93%,2%,4%,0%,1%
+2015,Missouri,Independence,William Yates Elementary School,,,Elem,388,K,5,47%,95.9,Far Above Average,69%,Green,66%,Green,0%,3%,10%,12%,68%,0%,7%
+2015,Missouri,Kansas City,Nashua Elementary School,,,Elem,374,K,5,23%,95.8,Far Above Average,85%,Green,70%,Green,0%,1%,9%,5%,83%,0%,3%
+2015,Texas,Austin,Richards School For Young Women Leade,,,"Middle, High",764,6,12,59%,95.8,Far Above Average,60%,Green,72%,Green,0%,3%,65%,9%,20%,0%,4%
+2015,California,San Francisco,Lawton Alternative Elementary School,,,"Elem, Middle",601,K,8,56%,95.7,Far Above Average,68%,Green,59%,Green,0%,75%,6%,3%,7%,1%,8%
+2015,New York,New York,Is 289,,,Middle,293,6,8,35%,95.6,Far Above Average,67%,Green,67%,Green,1%,35%,16%,8%,38%,-,2%
+2015,Louisiana,Shreveport,Fairfield Magnet School,,Magnet,Elem,465,K,5,14%,95.5,Far Above Average,80%,Green,80%,Green,0%,6%,2%,20%,71%,0%,1%
+2015,Tennessee,Memphis,John P. Freeman Optional School,,,"Elem, Middle",-,K,8,-,95.5,Far Above Average,70%,Green,65%,Green,-,-,-,-,-,-,-
+2015,New York,Buffalo,City Honors School At Fosdick Masten Park,,Magnet,"Elem, Middle, High",1001,5,12,11%,95.3,Far Above Average,72%,Green,67%,Green,1%,7%,7%,19%,63%,-,3%
+2015,New York,New York,East Side Middle School,,,Middle,449,6,8,11%,95.3,Far Above Average,76%,Green,78%,Green,3%,15%,10%,3%,68%,-,1%
+2015,New York,New York,Jhs 67 Louis Pasteur,,,Middle,886,6,8,40%,95.3,Far Above Average,68%,Green,60%,Green,1%,63%,11%,2%,22%,-,1%
+2015,California,Oakland,Oakland Unity High School,Charter,,High,311,9,12,78%,95.3,Far Above Average,41%,Green,47%,Green,1%,1%,84%,7%,0%,0%,7%
+2015,South Carolina,North Charleston,Palmetto Scholars Academy,Charter,,"Middle, High",350,6,12,11%,95.3,Far Above Average,67%,Green,67%,Green,0%,5%,6%,21%,67%,0%,1%
+2015,Texas,Brownsville,Benavides Elementary School,,,Elem,653,K,5,89%,95.2,Far Above Average,60%,Green,53%,Green,0%,0%,99%,0%,0%,0%,0%
+2015,California,Fresno,Design Science Early College High School,,Magnet,High,256,9,12,75%,95.2,Far Above Average,40%,Green,59%,Green,0%,18%,58%,6%,15%,2%,1%
+2015,Arizona,Mesa,Franklin Junior High School,,,Middle,281,7,9,36%,95.2,Far Above Average,72%,Green,60%,Green,1%,2%,30%,1%,63%,0%,3%
+2015,California,San Francisco,Galileo High School,,,High,1909,9,12,80%,95.2,Far Above Average,46%,Green,44%,Green,0%,68%,17%,6%,5%,1%,3%
+2015,California,San Jose,KIPP San Jose Collegiate,Charter,,High,475,9,12,73%,95.2,Far Above Average,55%,Green,47%,Green,0%,18%,77%,1%,1%,1%,2%
+2015,Illinois,Chicago,Taft High School,,,"Middle, High",3185,7,12,63%,95.2,Far Above Average,56%,Green,58%,Green,0%,8%,39%,2%,48%,0%,2%
+2015,Indiana,Indianapolis,James A Allison Elementary School 3,,,Elem,280,K,6,80%,95.1,Far Above Average,66%,Green,63%,Green,0%,9%,19%,32%,36%,0%,4%
+2015,California,San Bernardino,Richardson PREP HI Middle School,,Magnet,Middle,609,6,8,83%,95.1,Far Above Average,51%,Green,56%,Green,0%,4%,75%,10%,10%,1%,1%
+2015,Tennessee,Murfreesboro,The Discovery School @ Bellwood,,Magnet,"Elem, Middle",411,K,8,8%,95.1,Far Above Average,79%,Green,88%,Green,1%,5%,3%,4%,83%,0%,4%
+2015,Texas,El Paso,Edgemere Elementary School,,,Elem,657,K,6,79%,95,Far Above Average,67%,Green,52%,Green,0%,1%,89%,4%,5%,0%,1%
+2015,New York,New York,Ballet Tech Nyc Ps For Dance,,,"Elem, Middle",149,4,8,64%,94.9,Far Above Average,73%,Green,58%,Green,1%,38%,16%,24%,20%,-,2%
+2015,Texas,Dallas,Ben Milam Elementary School,,,Elem,272,K,5,86%,94.8,Far Above Average,65%,Green,61%,Green,0%,0%,90%,5%,3%,0%,0%
+2015,California,Costa Mesa,Early College High School,,,High,249,9,12,70%,94.8,Far Above Average,50%,Green,52%,Green,2%,5%,73%,1%,18%,0%,0%
+2015,Colorado,Fort Collins,Werner Elementary School,,,Elem,544,K,5,15%,94.7,Far Above Average,69%,Green,81%,Green,0%,4%,7%,1%,83%,0%,5%
+2015,Texas,Houston,Baylor College Of Medicine Academy,,,Middle,-,6,8,-,94.6,Far Above Average,56%,Green,65%,Green,-,-,-,-,-,-,-
+2015,California,Hayward,Impact Academy of Arts and Technology,Charter,,High,468,9,12,72%,94.5,Far Above Average,42%,Green,51%,Green,1%,11%,62%,13%,6%,3%,6%
+2015,New York,New York,York Early College Academy,,,"Middle, High",613,6,12,77%,94.4,Far Above Average,56%,Green,48%,Green,5%,28%,9%,54%,2%,-,2%
+2015,California,San Francisco,Yu (Alice Fong) Elementary School,,,"Elem, Middle",579,K,8,37%,94.4,Far Above Average,77%,Green,60%,Green,1%,67%,5%,5%,5%,1%,16%
+2015,Texas,Houston,Field Elementary School,,,Elem,480,K,5,89%,94.3,Far Above Average,63%,Green,54%,Green,0%,1%,89%,6%,4%,0%,0%
+2015,New York,New York,Ps 133,,,Elem,485,K,5,65%,94.3,Far Above Average,65%,Green,55%,Green,1%,63%,17%,5%,13%,-,1%
+2015,New York,New York,Ps 242 Leonard P Stavisky Early Childhood School,,,Elem,405,K,3,73%,94.3,Far Above Average,67%,Green,53%,Green,0%,74%,15%,4%,5%,-,2%
+2015,Washington,Bellevue,Bellevue Big Picture School,,,"Middle, High",343,6,12,15%,94.2,Far Above Average,70%,Green,68%,Green,0%,20%,7%,3%,63%,0%,8%
+2015,New York,New York,Ms 158 Marie Curie,,,Middle,1039,6,8,55%,94.2,Far Above Average,63%,Green,54%,Green,0%,62%,13%,4%,20%,-,0%
+2015,Illinois,Chicago,Skinner Elementary School,,Magnet,"Elem, Middle",963,K,8,29%,94.2,Far Above Average,71%,Green,81%,Green,0%,21%,11%,37%,26%,0%,3%
+2015,Oregon,Portland,Abernethy Elementary School,,,Elem,512,K,5,11%,94.1,Far Above Average,80%,Green,71%,Green,0%,2%,5%,0%,85%,0%,7%
+2015,Washington,Seattle,Rainier View,,,Elem,194,K,5,65%,94.1,Far Above Average,63%,Green,60%,Green,1%,27%,16%,35%,7%,1%,12%
+2015,New York,New York,Jhs 234 Arthur W Cunningham,,,Middle,1917,6,8,62%,94,Far Above Average,58%,Green,54%,Green,0%,26%,12%,17%,44%,-,0%
+2015,Illinois,Chicago,Solomon Elementary School,,,"Elem, Middle",355,K,8,66%,94,Far Above Average,61%,Green,61%,Green,0%,36%,14%,3%,43%,0%,3%
+2015,Colorado,Colorado Springs,James Irwin Charter Elementary School,Charter,,Elem,519,K,5,47%,93.9,Far Above Average,62%,Green,67%,Green,1%,3%,43%,5%,40%,1%,8%
+2015,New York,New York,The Math And Science Exploratory School,,,Middle,518,6,8,22%,93.9,Far Above Average,70%,Green,69%,Green,0%,8%,17%,19%,54%,-,2%
+2015,California,Hayward,Leadership Public Schools - Hayward,Charter,,High,507,9,12,65%,93.8,Far Above Average,49%,Green,47%,Green,0%,22%,65%,5%,2%,4%,3%
+2015,New York,New York,Ps 205 Alexander Graham Bell,,,Elem,322,K,5,33%,93.8,Far Above Average,76%,Green,63%,Green,0%,39%,21%,4%,34%,-,2%
+2015,Texas,Garland,Walnut Glen Academy For Excel,,Magnet,Elem,529,K,5,54%,93.8,Far Above Average,64%,Green,66%,Green,6%,14%,41%,12%,24%,0%,3%
+2015,Indiana,South Bend,Lasalle Intermediate Academy,,,Middle,854,5,8,46%,93.7,Far Above Average,58%,Green,64%,Green,0%,5%,15%,20%,50%,0%,10%
+2015,New York,New York,Ps 221 The North Hills School,,,Elem,641,K,5,39%,93.7,Far Above Average,69%,Green,61%,Green,0%,63%,13%,3%,21%,-,0%
+2015,Kentucky,Louisville,Greathouse Shryock Traditional,,Magnet,Elem,604,K,5,22%,93.6,Far Above Average,75%,Green,70%,Green,0%,13%,3%,17%,64%,0%,3%
+2015,New York,New York,I.S. 227 Louis Armstrong Intermediate School,,,Middle,1633,5,8,71%,93.6,Far Above Average,60%,Green,47%,Green,1%,14%,46%,12%,27%,-,0%
+2015,Illinois,Peoria,Washington Gifted School,,,Middle,282,5,8,22%,93.5,Far Above Average,72%,Green,85%,Green,1%,9%,5%,8%,67%,0%,10%
+2015,Louisiana,New Orleans,Lusher Charter School,Charter,,"Elem, Middle, High",1691,K,12,19%,93.4,Far Above Average,75%,Green,76%,Green,0%,3%,8%,29%,53%,0%,6%
+2015,New York,New York,Ms 255 Salk School Of Science,,,Middle,366,6,8,11%,93.4,Far Above Average,72%,Green,77%,Green,0%,21%,8%,4%,64%,-,2%
+2015,New York,New York,Ps 159,,,Elem,654,K,5,51%,93.4,Far Above Average,65%,Green,61%,Green,1%,48%,20%,2%,28%,-,1%
+2015,Ohio,Cincinnati,T.C.P. World Academy,Charter,,Elem,528,K,6,78%,93.4,Far Above Average,52%,Green,59%,Green,0%,0%,1%,94%,2%,0%,3%
+2015,Colorado,Denver,Dsst: Byers Middle School,,,Middle,-,6,8,-,93.3,Far Above Average,62%,Green,65%,Green,-,-,-,-,-,-,-
+2015,Texas,Plano,Haun Elementary School,,,Elem,501,K,5,6%,92.9,Far Above Average,79%,Green,96%,Green,0%,40%,9%,5%,42%,0%,3%
+2015,Ohio,Dayton,Oakwood Junior High School,,,Middle,370,7,8,0%,92.9,Far Above Average,80%,Green,76%,Green,0%,4%,2%,0%,91%,0%,3%
+2015,California,Los Angeles,Wonderland Avenue Elementary School,,Magnet,Elem,542,K,5,6%,92.7,Far Above Average,76%,Green,74%,Green,0%,19%,4%,3%,71%,0%,4%
+2015,New Jersey,Jersey City,Soaring Heights Charter School,Charter,,"Elem, Middle",236,K,8,51%,92.5,Far Above Average,60%,Green,60%,Green,0%,48%,16%,31%,3%,0%,1%
+2015,Arizona,Phoenix,Alhambra Traditional School,,,"Elem, Middle",752,K,8,51%,92.3,Far Above Average,70%,Green,57%,Green,1%,2%,68%,8%,19%,0%,2%
+2015,Texas,Carrollton,Mccoy Elementary School,,,Elem,422,K,5,42%,92.3,Far Above Average,75%,Green,65%,Green,0%,29%,27%,12%,26%,0%,5%
+2015,Texas,Austin,West Ridge Middle School,,,Middle,898,6,8,3%,92.3,Far Above Average,97%,Green,73%,Green,0%,16%,10%,1%,69%,0%,4%
+2015,New York,New York,Queens College School For Math Science And Techno,,,"Elem, Middle",504,K,8,52%,92.2,Far Above Average,65%,Green,57%,Green,1%,50%,13%,26%,9%,-,2%
+2015,Texas,Odessa,El Magnet At Reagan Elementary School,,Magnet,Elem,707,K,5,14%,92.1,Far Above Average,98%,Green,71%,Green,1%,4%,56%,2%,36%,0%,1%
+2015,Illinois,Aurora,Fred Rodgers Magnet Academy,,,"Elem, Middle",449,3,8,69%,92.1,Far Above Average,57%,Green,55%,Green,1%,3%,80%,4%,9%,0%,2%
+2015,Illinois,Chicago,Lenart Elementary Regional Gifted Center,,Magnet,"Elem, Middle",287,K,8,41%,92.1,Far Above Average,64%,Green,55%,Green,1%,15%,6%,59%,15%,1%,3%
+2015,Indiana,Indianapolis,Mary Adams Elementary School,,,Elem,514,K,5,37%,92.1,Far Above Average,71%,Green,58%,Green,0%,5%,4%,4%,81%,0%,5%
+2015,New York,New York,Brooklyn School Of Inquiry,,,Elem,438,K,6,19%,92,Far Above Average,78%,Green,67%,Green,0%,16%,4%,5%,74%,-,1%
+2015,New York,New York,Icahn Charter School 2,Charter,,"Elem, Middle",324,K,8,72%,91.9,Far Above Average,63%,Green,51%,Green,1%,4%,59%,34%,2%,-,0%
+2015,Michigan,Dearborn,Henry Ford Early College,,,High,233,9,12,56%,91.8,Far Above Average,44%,Green,50%,Green,0%,9%,4%,13%,73%,0%,1%
+2015,New York,Yonkers,PEARLS Hawthorne,,Magnet,"Elem, Middle",1001,K,8,40%,91.5,Far Above Average,60%,Green,62%,Green,0%,20%,39%,13%,25%,-,4%
+2015,Louisiana,Shreveport,Caddo Parish Middle Magnet School,,Magnet,Middle,1281,6,8,21%,91.4,Far Above Average,59%,Green,71%,Green,0%,3%,2%,27%,65%,0%,1%
+2015,Texas,Garland,Hillside Academy For Excel,,Magnet,Elem,463,K,5,46%,91.4,Far Above Average,74%,Green,68%,Green,2%,16%,41%,13%,25%,0%,3%
+2015,New York,New York,Ps 130 Hernando De Soto,,,Elem,997,K,5,49%,91.3,Far Above Average,71%,Green,56%,Green,0%,87%,5%,1%,4%,-,2%
+2015,New York,New York,Ps 229 Dyker,,,"Elem, Middle",1164,K,8,55%,91.3,Far Above Average,60%,Green,54%,Green,0%,53%,11%,1%,34%,-,1%
+2015,Kansas,Kansas City,Sumner Academy Of Arts & Science,,Magnet,"Middle, High",917,8,12,75%,91.3,Far Above Average,46%,Green,47%,Green,0%,8%,42%,34%,15%,0%,1%
+2015,Michigan,Grand Rapids,Blandford Nature Center,,Magnet,Middle,62,6,6,31%,91.1,Far Above Average,63%,Green,57%,Green,5%,2%,0%,0%,89%,0%,5%
+2015,California,Santa Ana,Ocsa,Charter,,"Middle, High",1922,7,12,10%,90.9,Far Above Average,69%,Green,70%,Green,0%,18%,22%,1%,48%,0%,10%
+2015,California,San Francisco,Sunset Elementary School,,,Elem,402,K,5,35%,90.8,Far Above Average,67%,Green,58%,Green,0%,51%,7%,1%,26%,1%,14%
+2015,California,West Covina,San Jose Charter Academy,Charter,,"Elem, Middle",1228,K,8,46%,90.7,Far Above Average,56%,Green,59%,Green,0%,16%,76%,2%,6%,1%,0%
+2015,New York,New York,P.S. 682 The Academy of Talented Scholars,,,Elem,356,K,5,44%,90.6,Far Above Average,64%,Green,55%,Green,0%,19%,14%,5%,62%,-,1%
+2015,New York,New York,Mott Hall Ii,,,Middle,335,6,8,43%,90.5,Far Above Average,58%,Green,55%,Green,1%,7%,39%,25%,26%,-,1%
+2015,Texas,Fort Worth,Tanglewood Elementary School,,,Elem,751,K,5,6%,90.3,Far Above Average,83%,Green,78%,Green,1%,7%,8%,3%,76%,0%,4%
+2015,Texas,Dallas,George Bannerman Dealey Montessori,,Magnet,Elem,439,K,6,42%,90.2,Far Above Average,68%,Green,51%,Green,0%,12%,34%,10%,38%,0%,6%
+2015,North Carolina,Cary,Triangle Math and Science Academy,Charter,,"Elem, Middle",458,K,9,12%,90.2,Far Above Average,76%,Green,74%,Green,0%,56%,4%,18%,21%,0%,2%
+2015,California,Fremont,Mission San Jose High School,,Magnet,High,2129,9,12,3%,90.1,Far Above Average,67%,Green,64%,Green,0%,91%,2%,1%,6%,0%,1%
+2015,New York,New York,Ps 188 Kingsbury,,,Elem,693,K,5,22%,90.1,Far Above Average,71%,Green,70%,Green,0%,57%,7%,2%,32%,-,2%
+2015,Indiana,Indianapolis,Gambold Preparatory Magnet High School,,,High,-,9,11,-,90,Far Above Average,53%,Green,44%,Green,-,-,-,-,-,-,-
+2015,California,Carlsbad,Pacific Rim Elementary School,,,Elem,866,K,5,6%,90,Above Average,77%,Green,80%,Green,0%,13%,9%,2%,72%,1%,4%
+2015,Illinois,Chicago,Stem Magnet Academy Elementary,,,Elem,392,K,5,41%,90,Far Above Average,58%,Green,64%,Green,0%,20%,28%,31%,18%,1%,2%
+2015,New York,New York,Jhs 104 Simon Baruch,,,Middle,1073,6,8,62%,89.8,Above Average,52%,Green,47%,Green,1%,44%,20%,9%,25%,-,1%
+2015,Arizona,Mesa,Franklin at Brimhall Elementary School,,,Elem,891,K,6,26%,89.7,Above Average,69%,Green,60%,Green,0%,2%,13%,2%,81%,0%,1%
+2015,New York,New York,P.S. 115 Glen Oaks,,,Elem,666,K,5,44%,89.7,Above Average,59%,Green,56%,Green,1%,69%,13%,6%,9%,-,2%
+2015,Texas,Plano,Harrington Elementary School,,,Elem,427,K,5,27%,89.6,Above Average,76%,Green,63%,Green,0%,23%,15%,9%,48%,0%,5%
+2015,California,San Francisco,Chinese Immersion School At Deavila,,,Elem,397,K,5,19%,89.5,Above Average,63%,Green,73%,Green,0%,65%,4%,1%,16%,0%,14%
+2015,Missouri,St. Louis,Sappington Elementary School,,,Elem,659,K,5,33%,89.4,Above Average,64%,Green,59%,Green,0%,4%,5%,1%,85%,0%,4%
+2015,Texas,Allen,Beverly Elementary School,,,Elem,488,K,5,12%,89.3,Above Average,71%,Green,80%,Green,0%,36%,9%,5%,46%,0%,4%
+2015,Washington,Spokane,Bryant Center,,,"Elem, Middle, High",619,K,12,30%,89.3,Above Average,46%,Green,62%,Green,0%,2%,11%,1%,77%,0%,9%
+2015,California,San Francisco,Giannini (A.P.) Middle School,,,Middle,1175,6,8,54%,89.3,Above Average,51%,Green,50%,Green,1%,63%,9%,5%,14%,1%,7%
+2015,California,San Diego,Mt. Everest Academy,,,"Elem, Middle, High",282,K,12,20%,89.2,Above Average,62%,Green,91%,Green,1%,6%,20%,1%,60%,0%,12%
+2015,Texas,San Antonio,Tejeda Middle School,,,Middle,1175,6,8,14%,89.1,Above Average,74%,Green,59%,Green,0%,8%,37%,4%,47%,0%,4%
+2015,Arizona,Tucson,Academy of Math and Science,Charter,,"Elem, Middle",412,K,8,75%,89,Above Average,53%,Green,52%,Green,4%,2%,64%,6%,19%,0%,5%
+2015,Texas,Houston,River Oaks Elementary School,,Magnet,Elem,680,K,5,10%,89,Above Average,89%,Green,80%,Green,0%,25%,17%,7%,43%,0%,7%
+2015,California,Long Beach,Naples Elementary School,,,Elem,364,K,5,9%,88.9,Above Average,68%,Green,68%,Green,0%,6%,12%,3%,59%,0%,20%
+2015,Texas,Houston,Cornerstone Academy,Charter,,Middle,370,6,8,31%,88.8,Above Average,64%,Green,53%,Green,1%,11%,34%,2%,50%,0%,3%
+2015,Texas,Richardson,Miller Elementary School,,,Elem,427,K,5,12%,88.8,Above Average,66%,Green,96%,Green,0%,29%,9%,10%,46%,0%,5%
+2015,California,Pomona,International Polytechnic High School,,,High,547,9,12,24%,88.7,Above Average,48%,Green,59%,Green,0%,17%,62%,2%,15%,0%,3%
+2015,California,Garden Grove,Patton Elementary School,,,Elem,1006,K,6,26%,88.6,Above Average,62%,Green,57%,Green,0%,37%,19%,1%,38%,0%,5%
+2015,New York,New York,Ps Is 266,,,"Elem, Middle",687,K,8,48%,88.6,Above Average,57%,Green,55%,Green,1%,46%,21%,10%,22%,-,1%
+2015,New York,New York,Jhs 167 Robert F Wagner,,,Middle,1364,6,8,47%,88.5,Above Average,54%,Green,49%,Green,1%,28%,22%,10%,38%,-,2%
+2015,California,Los Angeles,Roscomare Road Elementary School,,,Elem,469,K,5,6%,88.1,Above Average,77%,Green,77%,Green,0%,7%,3%,3%,81%,1%,6%
+2015,Louisiana,Shreveport,Eden Gardens Fundamental Elementary School,,Magnet,Elem,489,K,5,15%,88,Above Average,60%,Green,83%,Green,0%,6%,3%,23%,64%,0%,3%
+2015,North Carolina,Charlotte,Piedmont Open Middle School,,Magnet,Middle,991,6,8,35%,87.8,Above Average,57%,Green,50%,Green,1%,8%,7%,60%,20%,0%,4%
+2015,Colorado,Denver,Denver School Of The Arts,,,"Middle, High",1086,6,12,12%,87.7,Above Average,63%,Green,65%,Green,0%,5%,14%,7%,69%,0%,6%
+2015,New York,New York,Ps 196 Grand Central Parkway,,,Elem,796,K,5,22%,87.6,Above Average,66%,Green,59%,Green,0%,37%,13%,3%,39%,-,7%
+2015,Texas,Pearland,Shadycrest Elementary School,,,Elem,588,K,4,15%,87.6,Above Average,74%,Green,66%,Green,0%,5%,23%,7%,61%,0%,4%
+2015,Arizona,Tempe,Ward Traditional Academy,,,"Elem, Middle",483,K,8,27%,87.6,Above Average,65%,Green,63%,Green,0%,6%,27%,5%,54%,1%,7%
+2015,California,Sacramento,Arnold Adreani Elementary School,,,Elem,836,K,6,29%,87.5,Above Average,61%,Green,58%,Green,0%,35%,18%,5%,31%,1%,11%
+2015,New York,New York,Ps 186 Castlewood,,,Elem,394,K,5,34%,87.5,Above Average,64%,Green,58%,Green,1%,35%,20%,13%,31%,-,1%
+2015,Washington,Tacoma,Science And Math Institute,,,High,459,9,12,38%,87.5,Above Average,61%,Green,62%,Green,1%,8%,8%,10%,71%,1%,1%
+2015,Massachusetts,Worcester,Worcester Arts Magnet School,,,Elem,404,K,6,36%,87.5,Above Average,64%,Green,60%,Green,0%,4%,22%,13%,53%,0%,8%
+2015,Texas,San Antonio,Encino Park Elementary School,,,Elem,626,K,5,12%,87.4,Above Average,72%,Green,74%,Green,1%,6%,33%,2%,53%,0%,5%
+2015,Arizona,Gilbert,Riggs Elementary School,,,Elem,1024,K,6,13%,87.4,Above Average,76%,Green,57%,Green,1%,3%,14%,3%,75%,0%,3%
+2015,Oregon,Eugene,South Eugene High School,,,High,1435,9,12,25%,87.4,Above Average,56%,Green,64%,Green,1%,6%,8%,2%,73%,0%,10%
+2015,Texas,Laredo,Col Santos Benavides Elementary School,,,Elem,948,K,5,36%,87.2,Above Average,61%,Green,52%,Green,0%,2%,95%,1%,2%,0%,0%
+2015,California,San Diego,Del Norte High School,,,High,1933,9,12,10%,87.2,Above Average,63%,Green,61%,Green,0%,34%,10%,3%,48%,0%,4%
+2015,Illinois,Naperville,Robert Clow Elementary School,,,Elem,433,K,5,15%,87,Above Average,60%,Green,69%,Green,0%,17%,12%,3%,66%,0%,2%
+2015,Arizona,Tucson,Borman Elementary School,,,Elem,450,K,5,35%,86.8,Above Average,66%,Green,51%,Green,0%,2%,25%,6%,53%,1%,13%
+2015,Nebraska,Omaha,Loveland Elementary School,,,Elem,294,K,6,22%,86.8,Above Average,68%,Green,69%,Green,0%,13%,6%,7%,70%,0%,4%
+2015,New York,New York,Ms 260 Clinton School Writers And Artists,,,Middle,270,6,8,20%,86.8,Above Average,52%,Green,62%,Green,2%,15%,15%,6%,61%,-,1%
+2015,Oregon,Eugene,Spencer Butte Middle School,,,Middle,448,6,8,32%,86.8,Above Average,58%,Green,50%,Green,0%,3%,10%,3%,73%,0%,11%
+2015,Ohio,Cincinnati,Walnut Hills High School,,,"Elem, Middle, High",2591,5,12,21%,86.8,Above Average,63%,Green,64%,Green,0%,4%,2%,30%,57%,0%,6%
+2015,Texas,San Antonio,Roan Forest Elementary School,,,Elem,778,K,5,29%,86.7,Above Average,81%,Green,51%,Green,0%,12%,53%,5%,27%,0%,3%
+2015,Texas,San Antonio,Las Lomas Elementary School,,,Elem,537,K,5,19%,86.3,Above Average,70%,Green,74%,Green,1%,9%,42%,4%,40%,0%,5%
+2015,Arizona,Phoenix,Kyrene de la Sierra School,,,Elem,613,K,5,9%,86.2,Above Average,76%,Green,60%,Green,0%,9%,13%,4%,65%,0%,8%
+2015,Illinois,Chicago,Hawthorne Elementary Scholastic Academy,,Magnet,"Elem, Middle",576,K,8,24%,86.1,Above Average,61%,Green,54%,Green,1%,9%,23%,9%,51%,2%,6%
+2015,Ohio,Cincinnati,Mariemont Junior High School,,,Middle,265,7,8,13%,86.1,Above Average,63%,Green,64%,Green,0%,1%,2%,1%,92%,0%,4%
+2015,Texas,Austin,Hill Country Middle School,,,Middle,1001,6,8,3%,86,Above Average,80%,Green,75%,Green,0%,10%,12%,1%,73%,0%,3%
+2015,Louisiana,Baton Rouge,Sherwood Middle Academic Academy,,Magnet,Middle,752,6,8,20%,86,Above Average,53%,Green,67%,Green,0%,13%,5%,50%,30%,0%,2%
+2015,California,Los Angeles,Community Magnet Charter Elementary School,Charter,Magnet,Elem,469,K,5,26%,85.9,Above Average,71%,Green,62%,Green,0%,27%,15%,13%,38%,0%,7%
+2015,North Carolina,Charlotte,Jay M Robinson Middle,,,Middle,1101,6,8,10%,85.6,Above Average,69%,Green,55%,Green,0%,16%,7%,8%,67%,0%,2%
+2015,California,Ventura,Mound Elementary School,,Magnet,Elem,576,K,5,9%,85.3,Above Average,68%,Green,66%,Green,0%,7%,18%,1%,64%,0%,9%
+2015,Tennessee,Memphis,Campus School,,,Elem,-,1,6,-,85.2,Above Average,71%,Green,68%,Green,-,-,-,-,-,-,-
+2015,Texas,Houston,Lanier Middle School,Charter,Magnet,Middle,1392,6,8,30%,85.2,Above Average,56%,Green,49%,Green,0%,14%,37%,9%,35%,0%,4%
+2015,Oregon,Portland,Stephenson Elementary School,,,Elem,308,K,5,8%,85.2,Above Average,61%,Green,74%,Green,1%,6%,4%,1%,81%,1%,6%
+2015,Arizona,Tucson,Sonoran Science Academy - Tucson,Charter,,"Elem, Middle, High",694,K,12,33%,85.1,Above Average,54%,Green,56%,Green,1%,11%,28%,5%,51%,0%,5%
+2015,Ohio,Akron,Manchester Middle School,,,Middle,431,5,8,31%,85,Above Average,55%,Green,58%,Green,0%,0%,0%,1%,96%,0%,2%
+2015,Illinois,Naperville,Kingsley Elementary School,,,Elem,432,K,5,16%,84.9,Above Average,64%,Green,61%,Green,0%,15%,6%,2%,74%,0%,3%
+2015,New York,New York,P.S. 41 Greenwich Village,,,Elem,751,K,5,4%,84.8,Above Average,68%,Green,67%,Green,0%,9%,10%,2%,69%,-,10%
+2015,Louisiana,Baton Rouge,B. R. Foreign Language Academy Immersion Magnet,,Magnet,Elem,299,K,5,25%,84.7,Above Average,67%,Green,61%,Green,0%,2%,5%,64%,29%,0%,0%
+2015,Arizona,Chandler,Chandler Traditional Academy - Goodman,,,Elem,711,K,6,19%,84.7,Above Average,66%,Green,62%,Green,1%,14%,20%,6%,54%,0%,4%
+2015,Texas,McKinney,Dean And Mildred Bennett Elementary School,,,Elem,491,K,5,7%,84.7,Above Average,84%,Green,75%,Green,0%,7%,15%,8%,67%,0%,3%
+2015,Indiana,Fort Wayne,Cedarville Elementary School,,,Elem,668,K,3,17%,84.6,Above Average,68%,Green,55%,Green,0%,1%,4%,1%,91%,0%,3%
+2015,Ohio,Dayton,Dr John Hole Elementary School,,,Elem,343,2,5,12%,84.6,Above Average,73%,Green,56%,Green,0%,11%,3%,3%,80%,0%,2%
+2015,Texas,San Antonio,Bulverde Creek Elementary School,,,Elem,923,K,5,22%,84,Above Average,59%,Green,63%,Green,1%,5%,45%,5%,42%,0%,4%
+2015,California,Oakland,Chabot Elementary School,,,Elem,573,K,5,16%,83.9,Above Average,63%,Green,56%,Green,0%,7%,9%,11%,60%,0%,13%
+2015,Arizona,Peoria,Happy Valley School,Charter,,Elem,750,K,6,14%,83.8,Above Average,62%,Green,65%,Green,0%,13%,7%,4%,72%,0%,4%
+2015,Kansas,Overland Park,Harmony Elementary School,,,Elem,567,K,5,4%,83.8,Above Average,77%,Green,81%,Green,0%,17%,4%,2%,73%,0%,3%
+2015,California,Irvine,Stonegate Elementary School,,,Elem,1122,K,6,7%,83.1,Above Average,68%,Green,69%,Green,0%,69%,5%,1%,18%,0%,7%
+2015,California,San Diego,Carmel Del Mar Elementary School,,,Elem,560,K,6,8%,82.8,Above Average,69%,Green,63%,Green,0%,30%,12%,1%,52%,0%,6%
+2015,Colorado,Fort Collins,Kinard Core Knowledge Middle School,,,Middle,807,6,8,8%,82.7,Above Average,62%,Green,56%,Green,0%,10%,5%,2%,79%,0%,4%
+2015,North Carolina,Charlotte,Providence Spring Elementary,,,Elem,871,K,5,4%,82.6,Above Average,75%,Green,70%,Green,0%,15%,4%,5%,74%,0%,1%
+2015,Arizona,Gilbert,Higley Elementary School,,,"Elem, Middle",645,K,8,20%,82.5,Above Average,62%,Green,52%,Green,0%,9%,21%,4%,60%,0%,5%
+2015,Virginia,Virginia Beach,Kingston Elementary School,,,Elem,552,K,5,7%,82.2,Above Average,74%,Green,75%,Green,0%,4%,7%,2%,83%,0%,4%
+2015,Illinois,Naperville,Fry Elementary School,,,Elem,589,K,5,6%,81.4,Above Average,78%,Green,55%,Green,0%,39%,2%,4%,50%,0%,5%
+2015,California,San Diego,Solana Pacific Elementary School,,,Elem,577,4,6,3%,80.9,Above Average,68%,Green,64%,Green,0%,31%,5%,1%,58%,0%,4%
+2015,California,Fremont,William Hopkins Junior High School,,,Middle,990,7,8,3%,80.9,Above Average,68%,Green,58%,Green,0%,92%,1%,0%,6%,0%,1%
+2015,Texas,Austin,Gorzycki Middle School,,,Middle,1330,6,8,5%,80.7,Above Average,62%,Green,66%,Green,0%,7%,24%,2%,63%,0%,4%
+2015,Oregon,Portland,Winterhaven School,,,"Elem, Middle",346,K,8,11%,80.2,Above Average,64%,Green,52%,Green,0%,3%,4%,2%,82%,1%,9%
+2015,Nebraska,Omaha,Standing Bear Elementary School,,,Elem,562,K,4,23%,80.1,Above Average,61%,Green,51%,Green,0%,5%,7%,9%,72%,0%,7%
+2015,Texas,Frisco,Roach Middle School,,,Middle,963,6,8,16%,79.7,Above Average,59%,Green,49%,Green,1%,15%,14%,15%,52%,1%,3%
+2015,Washington,Everett,Gateway Middle School,,,Middle,810,6,8,12%,79.6,Above Average,57%,Green,60%,Green,0%,18%,10%,1%,61%,0%,9%
+2015,Texas,Frisco,Curtsinger Elementary School,,,Elem,624,K,5,6%,79,Above Average,72%,Green,73%,Green,0%,17%,13%,5%,61%,0%,5%
+2015,North Carolina,Charlotte,Polo Ridge Elementary,,,Elem,1036,K,5,6%,78.8,Above Average,68%,Green,58%,Green,0%,25%,5%,6%,61%,0%,2%
+2015,New Mexico,Albuquerque,Southwest Secondary Learning Center,Charter,,"Middle, High",263,7,12,22%,78.2,Above Average,46%,Green,62%,Green,3%,4%,31%,3%,58%,0%,0%
+2015,California,San Diego,Dingeman Elementary School,,,Elem,832,K,5,6%,78.1,Above Average,58%,Green,66%,Green,0%,46%,7%,1%,35%,0%,11%
+2015,Utah,Salt Lake City,Oakwood School,,,Elem,563,K,6,18%,77.9,Above Average,57%,Green,57%,Green,1%,2%,4%,2%,90%,1%,0%
+2015,Indiana,Evansville,Scott Elementary School,,,Elem,887,K,6,16%,77.9,Above Average,60%,Green,52%,Green,1%,4%,1%,1%,89%,0%,4%
+2015,Kentucky,Lexington,Rosa Parks Elementary School,,,Elem,724,K,5,7%,77.4,Above Average,63%,Green,58%,Green,0%,23%,3%,3%,67%,0%,4%
+2015,Oregon,Portland,Lincoln High School,,,High,1586,9,12,10%,77.3,Above Average,43%,Green,58%,Green,0%,9%,8%,3%,74%,0%,6%
+2015,Texas,Plano,Fowler Middle School,,,Middle,1001,6,8,7%,76.9,Above Average,66%,Green,53%,Green,0%,47%,8%,7%,36%,0%,2%
+2015,Georgia,Atlanta,Lin Elementary School,,,Elem,641,K,5,9%,76.4,Above Average,62%,Green,54%,Green,0%,2%,5%,12%,74%,0%,8%
+2015,New Mexico,Albuquerque,Early College Academy,,,High,192,9,12,27%,75.7,Above Average,46%,Green,61%,Green,1%,2%,52%,4%,38%,0%,4%
+2015,California,Torrance,Edward J. Richardson Middle School,,,Middle,691,6,8,15%,75.7,Above Average,51%,Green,51%,Green,0%,30%,17%,2%,42%,0%,10%
+2015,California,Huntington Beach,Edison High School,,,High,2560,9,12,12%,75.6,Above Average,44%,Green,53%,Green,7%,12%,17%,1%,60%,1%,3%
+2015,Texas,Frisco,Maus Middle School,,,Middle,891,6,8,11%,75.6,Above Average,54%,Green,51%,Green,1%,24%,15%,13%,44%,0%,4%
+2015,Kansas,Overland Park,Harmony Middle School,,,Middle,562,6,8,7%,75.4,Above Average,55%,Green,56%,Green,0%,16%,4%,3%,73%,0%,4%
+2015,California,Huntington Beach,Ralph E. Hawes Elementary School,,,Elem,666,K,5,6%,75.1,Above Average,67%,Green,53%,Green,0%,10%,11%,0%,66%,0%,12%
+2015,California,Fullerton,Sunny Hills High School,,Magnet,High,2264,9,12,25%,75,Above Average,41%,Green,51%,Green,0%,52%,28%,2%,16%,0%,2%
+2015,California,Fresno,University High School,Charter,,High,486,9,12,10%,74.8,Above Average,40%,Green,56%,Green,1%,29%,25%,3%,41%,0%,2%
+2015,California,Fullerton,Troy High School,,Magnet,High,2764,9,12,19%,74.7,Above Average,49%,Green,47%,Green,0%,49%,24%,1%,22%,0%,4%
+2015,California,Irvine,Northwood High School,,,High,2173,9,12,7%,72.4,Above Average,43%,Green,47%,Green,1%,56%,6%,1%,32%,0%,4%
+2015,California,San Jose,Piedmont Hills High School,,Magnet,High,2215,9,12,28%,72.3,Above Average,43%,Green,48%,Green,0%,63%,23%,3%,6%,0%,5%
+2015,Arizona,Yuma,Gowan Science Academy,Charter,,Elem,287,1,4,0%,69.7,Average,64%,Green,57%,Green,1%,3%,47%,1%,43%,1%,3%
+2015,Indiana,Fort Wayne,Carroll High School,,,High,2137,9,12,16%,68.1,Average,49%,Green,51%,Green,0%,3%,4%,2%,88%,0%,4%
+2015,Arizona,Phoenix,Kyrene Altadena Middle School,,,Middle,1065,6,8,7%,66.8,Average,53%,Green,47%,Green,1%,8%,12%,5%,68%,0%,6%
+2015,Kansas,Overland Park,Blue Valley North High School,,,High,1533,9,12,12%,54.8,Average,46%,Green,46%,Green,0%,12%,5%,5%,73%,0%,4%
