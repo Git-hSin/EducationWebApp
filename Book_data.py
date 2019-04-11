@@ -14,7 +14,7 @@ from datetime import datetime
 # In[21]:
 
 
-data = pd.read_csv('output_table_final_version.csv',encoding = "ISO-8859-1")
+data = pd.read_csv('Resources/output_table_final_version.csv',encoding = "ISO-8859-1")
 data.head()
 
 
@@ -61,7 +61,7 @@ year_book_data.round(2)
 # In[57]:
 
 
-year_book_data.round(2).to_csv('NYTBestseller_YearAsVariable.csv')
+3year_book_data.round(2).to_csv('NYTBestseller_YearAsVariable.csv')
 
 
 # In[ ]:
