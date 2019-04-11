@@ -61,7 +61,7 @@ year_book_data.round(2)
 # In[57]:
 
 
-3year_book_data.round(2).to_csv('NYTBestseller_YearAsVariable.csv')
+#3year_book_data.round(2).to_csv('NYTBestseller_YearAsVariable.csv')
 
 
 # In[ ]:
