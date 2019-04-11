@@ -49,19 +49,19 @@ year_book_avg
 
 
 year_book_data=year_book_avg[["last_year","weeks_on_list","Amazon_reviews","Amazon_rating","Amazon_price"]]
-year_book_data.rename(columns={'last_year':'book_count',
+book_data=year_book_data.rename(columns={'last_year':'book_count',
                           'weeks_on_list':'weeks_on_list_avg',
                           'Amazon_reviews':'Amazon_reviews_avg',
                            'Amazon_rating':'Amazon_rating_avg',
                               'Amazon_price':'Amazon_price_avg'}, 
                  inplace=True)
-year_book_data.round(2)
+#year_book_data.round(2)
 
 
 # In[57]:
 
 
-3year_book_data.round(2).to_csv('NYTBestseller_YearAsVariable.csv')
+#year_book_data.round(2).to_csv('NYTBestseller_YearAsVariable.csv')
 
 
 # In[ ]:
