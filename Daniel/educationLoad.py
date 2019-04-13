@@ -58,7 +58,6 @@ college_enrollment_data_df = college_enrollment_data_df.T
 college_enrollment_data_df
 
 
-
 asian_home = "asian_home.csv"
 black_home = "black_home.csv"
 hispanic_home = "hispanic.csv"
@@ -71,4 +70,28 @@ del asian_home_df.index.name
 
 asian_home_df = asian_home_df.T
 asian_home_df
+
+black_home_df = pd.read_csv(black_home)
+black_home_df = black_home_df.set_index("Black, non-Hispanic")
+
+del black_home_df.index.name
+
+black_home_df = black_home_df.T
+black_home_df
+
+hispanic_home_df = pd.read_csv(hispanic_home)
+hispanic_home_df = hispanic_home_df.set_index("Hispanic")
+
+del hispanic_home_df.index.name
+
+hispanic_home_df = hispanic_home_df.T
+hispanic_home_df
+
+white_home_df = pd.read_csv(white_home)
+white_home_df = white_home_df.set_index("White non-Hispanic")
+
+del white_home_df.index.name
+
+white_home_df = white_home_df.T
+white_home_df
 
