@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Basic Flask Plotlyjs Example</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/">EDUCATION
+              <img class="nav-ufo" src="static/images/logo.png">
+            </a>
+          </div>
+        </div>
+      </nav>
+      <div class="hero text-center">
+        <h1>Education Data Visualization</h1>
+        <p>The Truth is Out There</p>
+      </div>
+      <div class="container">
+        <div class="row margin-top-50">
+          <div class="col-md-2">
+            <aside class="filters">
+              <div class="panel panel-default">
+                <div class="panel-heading">More Data Visualization</div>
+                <div class="panel-body">
+                        <div class="jumbotron">
+                            <a href="/book" class="btn btn-primary" role="button">BestSelller</a>
+
+                            <br>
+                            <br>
+                            <a href="/weeks" class="btn btn-primary" role="button">Education</a>
+                            <br>
+                            <br>
+                            <a href="/weeks" class="btn btn-primary" role="button">US Census</a>
+                            <br>
+                          </div>
+                </div>
+              </div>
+            </aside>
+          </div>
+          <div class="col-md-10">
+            <div id="plot">
+                <div id="line"></div>
+                <div id="line2"></div>
+                <div id="line3"></div>
+                <div id="line4"></div>
+                <div id="line5"></div>
+              
+                <script>
+                  d3.json('/weeks').then(function(data) {
+                    var layout = { margin: { t: 0 } }
+                    var LINE = document.getElementById('line');
+                    
+                    var layout={
+                      title: 'Average Weeks on NYTBestSeller List',
+                      xaxis:{title:'Year'},
+                      yaxis:{title:'Average Weeks Listing'}
+                  };
+              
+                    Plotly.plot(LINE, data, layout);
+                  
+                });
+              
+                  d3.json('/count').then(function(data) {
+              
+                    var layout2 = { margin: { t: 0 } }
+                    var LINE2 = document.getElementById('line2');
+                    
+                    var layout2={
+                      title: 'Number of Books on NYTBestSeller List by Year',
+                      xaxis:{title:'Year'},
+                      yaxis:{title:'Number of Books'}
+                  };
+                  
+                    Plotly.plot(LINE2, data, layout2)
+              
+                });
+              
+              
+                  d3.json('/review').then(function(data) {
+              
+              var layout3 = { margin: { t: 0 } }
+              var LINE3 = document.getElementById('line3');
+              
+              var layout3={
+                title: 'Average Number of Reviews on Amazon by Year',
+                xaxis:{title:'Year'},
+                yaxis:{title:'Average Number of Reviews'}
+              };
+              
+              Plotly.plot(LINE3, data, layout3)
+              
+              });
+              
+                  d3.json('/rating').then(function(data) {
+              
+              var layout4 = { margin: { t: 0 } }
+              var LINE4 = document.getElementById('line4');
+              
+              var layout4={
+                title: 'Average Book Rating on Amazon by Year',
+                xaxis:{title:'Year'},
+                yaxis:{title:'Average Rating 5/5'}
+              };
+              
+              Plotly.plot(LINE4, data, layout4)
+              
+              });
+              
+                  d3.json('/price').then(function(data) {
+              
+              var layout5 = { margin: { t: 0 } }
+              var LINE5 = document.getElementById('line5');
+              
+              var layout5={
+                title: 'Average Price on Amazon by Year',
+                xaxis:{title:'Year'},
+                yaxis:{title:'Average Price $'}
+              };
+              
+              Plotly.plot(LINE5, data, layout5)
+              
+              });
+              
+                </script>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <span class="bottom">EDUCATION</span>
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/data.js"></script>
+    <script src="static/js/plotly.js"></script>
+  </body>
+
+</html>

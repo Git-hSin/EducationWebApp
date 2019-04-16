@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template('index_test.html')
+    return render_template('index_test_button.html')
 
 
 @app.route("/weeks")
@@ -48,6 +48,10 @@ def test5():
         "y": book_data.year_book_data['Amazon_price'].tolist()}]
 
     return jsonify(data)
+
+@app.route("/book")
+def index2():
+    return render_template('index_test_button_book.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
