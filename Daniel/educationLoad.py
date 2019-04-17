@@ -1,7 +1,7 @@
 
+import numpy as np
 import pandas as pd
-from sqlalchemy import create_engine
-
+import requests
 
 
 csv_file1 = "low_income_performance.csv"
@@ -49,14 +49,16 @@ race_file = "graduation_race.csv"
 college_enrollment_data_df = pd.read_csv(race_file)
 
 
-college_enrollment_data_df = college_enrollment_data_df.fillna(0).set_index("Unnamed: 0")
-college_enrollment_data_df
-
-del college_enrollment_data_df.index.name
+college_enrollment_data_df = college_enrollment_data_df.fillna(0)
+college_enrollment_data_df = college_enrollment_data_df.rename(columns={"Unnamed: 0":"Year"})
 
 college_enrollment_data_df = college_enrollment_data_df.T
-college_enrollment_data_df
 
+college_enrollment_data_df.reset_index(inplace=True)
+
+college_enrollment_data_df.columns = college_enrollment_data_df.iloc[0]
+
+college_enrollment_data_df.drop(college_enrollment_data_df.index[0])
 
 asian_home = "asian_home.csv"
 black_home = "black_home.csv"
@@ -64,34 +66,30 @@ hispanic_home = "hispanic.csv"
 white_home = "white_home.csv"
 
 asian_home_df = pd.read_csv(asian_home)
-asian_home_df = asian_home_df.set_index("Unnamed: 0")
-
-del asian_home_df.index.name
-
+asian_home_df = asian_home_df.rename(columns = {"Unnamed: 0":"Year"})
+asian_home_df.set_index("Year")
 asian_home_df = asian_home_df.T
-asian_home_df
+asian_home_df.reset_index(inplace=True)
+asian_home_df.columns = asian_home_df.iloc[0]
+asian_home_df.drop(asian_home_df.index[0])
+
+hispanic_T = pd.read_csv(hispanic_home)
+hispanic_T = hispanic_T.rename(columns = {"Hispanic":"Year"})
+hispanic_T = hispanic_T.T
+hispanic_T.reset_index(inplace=True)
+hispanic_T.columns = hispanic_T.iloc[0]
+hispanic_T.drop(hispanic_T.index[0])
 
 black_home_df = pd.read_csv(black_home)
-black_home_df = black_home_df.set_index("Black, non-Hispanic")
-
-del black_home_df.index.name
-
+black_home_df = black_home_df.rename(columns = {"Black, non-Hispanic":"Year"})
 black_home_df = black_home_df.T
-black_home_df
-
-hispanic_home_df = pd.read_csv(hispanic_home)
-hispanic_home_df = hispanic_home_df.set_index("Hispanic")
-
-del hispanic_home_df.index.name
-
-hispanic_home_df = hispanic_home_df.T
-hispanic_home_df
+black_home_df.reset_index(inplace=True)
+black_home_df.columns = black_home_df.iloc[0]
+black_home_df.drop(black_home_df.index[0])
 
 white_home_df = pd.read_csv(white_home)
-white_home_df = white_home_df.set_index("White non-Hispanic")
-
-del white_home_df.index.name
-
+white_home_df = white_home_df.rename(columns = {"White non-Hispanic"})
 white_home_df = white_home_df.T
-white_home_df
-
+white_home_df.reset_index(inplace=True)
+white_home_df.columns = white_home_df.iloc[0]
+white_home_df.drop(white_home_df.index[0]
