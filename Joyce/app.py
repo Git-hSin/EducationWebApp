@@ -1,8 +1,7 @@
 from flask import Flask, request, jsonify, render_template
 import book_data, censusLoad
 
-import io
-import base64
+
 
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -72,21 +71,17 @@ def testt2():
         
 
 
-@app.route("/regrplot")
+@app.route("/regrplot", methods=['GET','POST'])
 def regrplot():
-    img = io.StringIO.StringIO()
-    
     if request.method == 'POST':
         df_variable1 = request.form['df_variable1']
         df_variable2 = request.form['df_variable2']
 
-        Reg_df = x.merge(y, how = "inner", left_on ='year', right_on = 'year')
-        plot = sns.regplot(x=df_variable1, y=df_variable2, data = Reg_df)
-        plot.savefig(img, format='png')
-        img.seek(0)
-
-        plot_url = base64.b64encode(img.getvalue())
-    return render_template("regression.html",plot_url=plot_url)
+        Reg_df = testt1().merge(testt2(), how = "inner", left_on ='year', right_on = 'year')
+        plot = sns.regplot(x=f'{df_variable1}', y=f'{df_variable2}', data = Reg_df)
+        plot.savefig('regrplot', format='png')
+        
+    return render_template("regression.html")
 
         
 
