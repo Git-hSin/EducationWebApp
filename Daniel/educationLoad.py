@@ -88,8 +88,8 @@ black_home_df.columns = black_home_df.iloc[0]
 black_home_df.drop(black_home_df.index[0])
 
 white_home_df = pd.read_csv(white_home)
-white_home_df = white_home_df.rename(columns = {"White non-Hispanic"})
+white_home_df = white_home_df.rename(columns = {"White non-Hispanic":"Year"})
 white_home_df = white_home_df.T
 white_home_df.reset_index(inplace=True)
 white_home_df.columns = white_home_df.iloc[0]
-white_home_df.drop(white_home_df.index[0]
+white_home_df.drop(white_home_df.index[0])
