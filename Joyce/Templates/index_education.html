@@ -75,81 +75,68 @@
                 <p>The average price on Amazon keeps raising since 2008. If we consider inflation as well as the successful business model of Amazon, the trend makes sence. It is an optimal sign to see customers are willing to spending more on hardcover fictions. </p>
               
                 <script>
-                  d3.json('/weeks').then(function(data) {
+                  d3.json('/asian').then(function(data) {
                     var layout = { margin: { t: 0 } }
                     var LINE = document.getElementById('line');
                     
                     var layout={
-                      title: 'Average Weeks on NYTBestSeller List',
+                      title: 'High School Graduation % Among Asian Students',
                       xaxis:{title:'Year'},
-                      yaxis:{title:'Average Weeks Listing'}
+                      yaxis:{title:'High School Graduation Rate'}
                   };
-              
                     Plotly.plot(LINE, data, layout);
                   
                 });
               
-                  d3.json('/count').then(function(data) {
-              
+                d3.json('/hispanic').then(function(data) {
                     var layout2 = { margin: { t: 0 } }
                     var LINE2 = document.getElementById('line2');
                     
                     var layout2={
-                      title: 'Number of Books on NYTBestSeller List by Year',
+                      title: 'High School Graduation % Among Hispanic Students',
                       xaxis:{title:'Year'},
-                      yaxis:{title:'Number of Books'}
+                      yaxis:{title:'High School Gradutation Rate'}
                   };
                   
                     Plotly.plot(LINE2, data, layout2)
-              
                 });
               
+              d3.json('/black').then(function(data) {
+                var layout3 = { margin: { t: 0 } }
+                var LINE3 = document.getElementById('line3');
               
-                  d3.json('/review').then(function(data) {
+                var layout3={
+                  title: 'High School Graduation % Among African-American Students',
+                  xaxis:{title:'Year'},
+                  yaxis:{title:'High School Gradutation Rate'}
+                };
               
-              var layout3 = { margin: { t: 0 } }
-              var LINE3 = document.getElementById('line3');
-              
-              var layout3={
-                title: 'Average Number of Reviews on Amazon by Year',
-                xaxis:{title:'Year'},
-                yaxis:{title:'Average Number of Reviews'}
-              };
-              
-              Plotly.plot(LINE3, data, layout3)
-              
+                    Plotly.plot(LINE3, data, layout3)
               });
               
-                  d3.json('/rating').then(function(data) {
+              d3.json('/white').then(function(data) {
+                var layout3 = { margin: { t: 0 } }
+                var LINE3 = document.getElementById('line4');
               
-              var layout4 = { margin: { t: 0 } }
-              var LINE4 = document.getElementById('line4');
+                var layout3={
+                  title: 'High School Graduation % Among White Students',
+                  xaxis:{title:'Year'},
+                  yaxis:{title:'High School Gradutation Rate'}
+                };
               
-              var layout4={
-                title: 'Average Book Rating on Amazon by Year',
-                xaxis:{title:'Year'},
-                yaxis:{title:'Average Rating 5/5'}
-              };
-              
-              Plotly.plot(LINE4, data, layout4)
-              
+                    Plotly.plot(LINE4, data, layout4)
               });
               
-                  d3.json('/price').then(function(data) {
-              
-              var layout5 = { margin: { t: 0 } }
-              var LINE5 = document.getElementById('line5');
-              
-              var layout5={
-                title: 'Average Price on Amazon by Year',
-                xaxis:{title:'Year'},
-                yaxis:{title:'Average Price $'}
-              };
-              
-              Plotly.plot(LINE5, data, layout5)
-              
+              d3.json('/college').then(function(data) {
+                var layout5 = { margin: { t: 0 } }
+                var LINE5 = document.getElementById('line5');
+                var layout5={
+                  title: 'Percentage of Students who Enrolled in College by Race',
+                  xaxis:{title:'Year'},
+                  yaxis:{title:'College Enrollment %'}
+                };
+                    Plotly.plot(LINE5, data, layout5)
               });
-              
                 </script>
             </div>
           </div>

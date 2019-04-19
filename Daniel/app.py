@@ -53,7 +53,7 @@ def test2():
         "name": "Father only"
     }
 
-        trace3 = {
+    trace3 = {
         "x": educationLoad.hispanic_T['Year'].tolist(),
         "y": educationLoad.hispanic_home['Two married parents'].tolist(),
         "name": "Two married parents"
