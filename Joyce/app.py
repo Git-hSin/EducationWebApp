@@ -38,7 +38,7 @@ def testt1():
            x1 = censusLoad.df_full2
         
 
-        return x1
+        return (x1 , df_variable1)
 
 @app.route("/dropdown_y", methods=['GET', 'POST'])
 def testt2():
@@ -52,35 +52,36 @@ def testt2():
            y1 = censusLoad.df_full1
         if df_variable2 in census2_fields:
            y1 = censusLoad.df_full2
-    
-        return y1
+        
+  
+        return (y1 , df_variable2)
         
         
 
 
 @app.route("/regrplot", methods=['GET','POST'])
 def regrplot():
-    if request.method == 'POST':
-        df_variable1 = request.form['df_variable1']
-        df_variable2 = request.form['df_variable2']
+    df_variable1 = request.args['df_variable1']
 
-        if df_variable1 in book_fields:
-            x1 = book_data.year_book_data
-        if df_variable1 in census1_fields:
-            x1 = censusLoad.df_full1
-        if df_variable1 in census2_fields:
-            x1 = censusLoad.df_full2
+    if df_variable1 in book_fields:
+        x1 = book_data.year_book_data
+    if df_variable1 in census1_fields:
+        x1 = censusLoad.df_full1
+    if df_variable1 in census2_fields:
+        x1 = censusLoad.df_full2
+    
+    df_variable2 = request.args['df_variable2']
+            
+    if df_variable2 in book_fields:
+        y1 = book_data.year_book_data
+    if df_variable2 in census1_fields:
+        y1 = censusLoad.df_full1
+    if df_variable2 in census2_fields:
+        y1 = censusLoad.df_full2
 
-        if df_variable2 in book_fields:
-            y1 = book_data.year_book_data
-        if df_variable2 in census1_fields:
-            y1 = censusLoad.df_full1
-        if df_variable2 in census2_fields:
-            y1 = censusLoad.df_full2
-
-        Reg_df = x1.merge(y1, how = "inner", left_on ='year', right_on = 'year')
-        plot = sns.regplot(x=f'{df_variable1}', y=f'{df_variable2}', data = Reg_df)
-        plot.savefig('regrplot', format='png')
+    Reg_df = x1.merge(y1, how = "inner", left_on ='year', right_on = 'year')
+    plot = sns.regplot(x=f'{df_variable1}', y=f'{df_variable2}', data = Reg_df)
+    plot.savefig('regrplot', format='png')
         
     return render_template("regression.html")
 
