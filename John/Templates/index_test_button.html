@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Education Data Visualization</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/">EDUCATION
+              <img class="nav-ufo" src="static/images/logo.png">
+            </a>
+          </div>
+        </div>
+      </nav>
+      <div class="hero text-center">
+        <h1 style="color:#FF8C00;">Education Data Visualization</h1>
+        <p>Make today the day to learn something new!</p>
+      </div>
+      <div class="container">
+        <div class="row margin-top-50">
+          <div class="col-md-2">
+            <aside class="filters">
+              <div class="panel panel-default">
+                <div class="panel-heading">More Data Visualization</div>
+                <div class="panel-body">
+                        <div class="jumbotron">
+                            <a href="/book" class="btn btn-primary" role="button">BestSelller</a>
+
+                            <br>
+                            <br>
+                            <a href="/education" class="btn btn-primary" role="button">Education</a>
+                            <br>
+                            <br>
+                            <a href="/census" class="btn btn-primary" role="button">US Census</a>
+                            <br>
+                            <br>
+                            <a href="/dropdown" class="btn btn-primary" role="button">Regression</a>
+                  </div>
+            </aside>
+          </div>
+          <div class="col-md-10">
+            <div id="plot">
+              <h1>What nuances can data uncover about education?</h1>
+              <h2>Introduction</h2>
+              <p>Our project aims to demonstrate the power of data in terms of what can be learned in education.</p>
+              <p>This dashboard was designed to provide exploratory analysis using multiple data sources in order to summarize our findings. These data sources include but are not limited to Amazon, the New York Times Best Sellers, The US Department of Education, and the US Census.</p>
+              <p>With these sources, we use a regression analysis modeler in our dashboard to help us identify any correlations that might exist using variables we are curious about. </p>
+              </div>
+            </aside>
+          </div>
+          <div class="col-md-10">
+            <div id="plot">
+                <a href="/book"><h2 target="/book">NYTBestSeller and Amazon Data</h2>
+                <img class="NYTBestSeller" src="https://static01.nyt.com/images/2019/01/14/reader-center/explainers-bestsellers/explainers-bestsellers-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt="NYTBestSeller and Amazon Data" target="/book" height="300" width="500"></a>
+                <a href="education"><h2 href="/education">Education Data</h2>
+                <img src="https://www.evolvedigitas.com/blog/wp-content/uploads/2018/04/education.jpg" height="300" width="500"></a>
+                <a href="/census"><h2>US Census Data</h2>
+                <img src="https://update.lib.berkeley.edu/wp-content/uploads/2016/05/census-logo.png" height="300" width="500"></a>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <span class="bottom">EDUCATION</span>
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+
+  </body>
+
+</html>

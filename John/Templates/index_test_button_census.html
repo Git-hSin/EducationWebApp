@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Education Data Visualization</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">CENSUS
+              <img class="nav-ufo" src="static/images/logo.png">
+            </a>
+          </div>
+        </div>
+      </nav>
+      <div class="hero text-center">
+        <h1>Education Data Visualization</h1>
+        <p>The Truth is Out There</p>
+      </div>
+      <div class="container">
+        <div class="row margin-top-50">
+          <div class="col-md-2">
+            <aside class="filters">
+              <div class="panel panel-default">
+                <div class="panel-heading">Other Visualization</div>
+                <div class="panel-body">
+                  <form>
+                    <div class="form-group">
+                        <div class="jumbotron">
+                            <a href="/" class="btn btn-primary" role="button">Home Page</a>
+
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </aside>
+          </div>
+          <div class="col-md-10">
+            <div id="plot">
+              <h1>Census API Data</h1>
+              <h2>US Population Metrics from 2014-2017</h2>
+              <br>
+              <h3>Source</h3>
+              <p>Gathered from the Census API for specified reports from 2014 to 2017</p>
+              <p>The API can be found here: https://api.census.gov/data/</p>
+              <p>Collected data includes Population in Poverty, Population Employed, Estimated Mean Income, Property Valuation, Population</p>
+                <br>
+              <div id="line1_c"></div>
+                <div id="line2_c"></div>
+                <p> First plot</p>
+                <div id="line3_c"></div>
+                <p>Second Plot</p>
+                <div id="line4_c"></div>
+                <p>Third Plot</p>
+                <div id="line5_c"></div>
+                <p>Fourth Plot</p>
+              
+                <script>
+                  d3.json('/line1_c').then(function(data) {
+                    var layout = { margin: { t: 0 } }
+                    var LINE1_C = document.getElementById('line1_c');
+                    
+                    var layout={
+                      title: 'Average Population in Poverty by Year',
+                      xaxis:{title:'Year'},
+                      yaxis:{title:'Average Population in Poverty'}
+                  };
+              
+                    Plotly.plot(LINE1_C, data, layout);
+                  
+                });
+              
+                  d3.json('/line2_c').then(function(data) {
+              
+                    var layout2 = { margin: { t: 0 } }
+                    var LINE2_C = document.getElementById('line2_c');
+                    
+                    var layout2={
+                      title: 'Average Population Employed by Year',
+                      xaxis:{title:'Year'},
+                      yaxis:{title:'Average Population Employed'}
+                  };
+                  
+                    Plotly.plot(LINE2_C, data, layout2)
+              
+                });
+              
+              
+                  d3.json('/line3_c').then(function(data) {
+              
+              var layout3 = { margin: { t: 0 } }
+              var LINE3_C = document.getElementById('line3_c');
+              
+              var layout3={
+                title: 'Average Population Income by Year',
+                xaxis:{title:'Year'},
+                yaxis:{title:'Average Population Income'}
+              };
+              
+              Plotly.plot(LINE3_C, data, layout3)
+              
+              });
+              
+                  d3.json('/line4_c').then(function(data) {
+              
+              var layout4 = { margin: { t: 0 } }
+              var LINE4_C = document.getElementById('line4_c');
+              
+              var layout4={
+                title: 'Average Property Valuation by Year',
+                xaxis:{title:'Year'},
+                yaxis:{title:'Average Property Valuation'}
+              };
+              
+              Plotly.plot(LINE4_C, data, layout4)
+              
+              });
+              
+                  d3.json('/line5_c').then(function(data) {
+              
+              var layout5 = { margin: { t: 0 } }
+              var LINE5_C = document.getElementById('line5_c');
+              
+              var layout5={
+                title: 'Average Population by Year',
+                xaxis:{title:'Year'},
+                yaxis:{title:'Average Population'}
+              };
+              
+              Plotly.plot(LINE5_C, data, layout5)
+              
+              });
+              
+                </script>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <span class="bottom">Census</span>
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/data.js"></script>
+    <script src="static/js/plotly.js"></script>
+  </body>
+
+</html>
