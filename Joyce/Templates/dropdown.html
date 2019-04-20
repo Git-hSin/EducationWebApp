@@ -1,13 +1,18 @@
 <!DOCTYPE HTML>
 <html lang = "en">
   <head>
-    <title>formDemo.html</title>
+    <title>Variable Selection for Regression Analysis</title>
     <meta charset = "UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+   <link rel="stylesheet" href="static/css/style.css">
   </head>
   <body>
     <h1>Form Demo</h1>
-    <form name="var1" action="/dropdown_x", method="post">
-       <fieldset>
+    <form name="var1" , method="get">
+       <fieldset class="form-group">
           <legend>Table Variable 1</legend>
           <p>
              <label>Select</label>
@@ -18,20 +23,19 @@
                 </select>
           </p>
        </fieldset>
-    </form>
-    <form name = "var2" action="/dropdown_y", method="post">
-        <fieldset>
-           <legend>Table Variable 2</legend>
-           <p>
-              <label>Select</label>
-              <select name="df_variable2">
-                 {% for each in dropdown_fields %}
-                   <option value="{{each}}">{{each}}</option>
-                 {% endfor %}
-                 </select>
-           </p>
-        </fieldset>
-        <button><input name="regrplt" method="GET" action="/regrplot" type="submit" class="btn btn-default"  value="Submit"></button>     
+
+      <fieldset class="form-group">
+          <legend>Table Variable 2</legend>
+          <p>
+             <label>Select</label>
+             <select name="df_variable2">
+                {% for each in dropdown_fields %}
+                  <option value="{{each}}">{{each}}</option>
+                {% endfor %}
+                </select>
+          </p>
+       </fieldset>
+       <button><input name="regrplt" method="GET" action="/regrplot" type="submit" class="btn btn-default"  value="Submit"></button>      
      </form>
      
   </body>
