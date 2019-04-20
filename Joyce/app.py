@@ -161,7 +161,7 @@ def index2():
     return render_template('index_test_button_book.html')
 
 @app.route("/census")
-def index2():
+def index3():
     return render_template('index_test_button_census.html')
 
 if __name__ == "__main__":
