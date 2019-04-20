@@ -43,25 +43,25 @@ def test():
 def test2():
     trace1 = {
         "x": educationLoad.hispanic_T['Year'].tolist(),
-        "y": educationLoad.hispanic_home['Mother only'].tolist(),
+        "y": educationLoad.hispanic_T['Mother only'].tolist(),
         "name": "Mother only"
     }
 
     trace2 = {
         "x": educationLoad.hispanic_T['Year'].tolist(),
-        "y": educationLoad.hispanic_home['Father only'].tolist(),
+        "y": educationLoad.hispanic_T['Father only'].tolist(),
         "name": "Father only"
     }
 
     trace3 = {
         "x": educationLoad.hispanic_T['Year'].tolist(),
-        "y": educationLoad.hispanic_home['Two married parents'].tolist(),
+        "y": educationLoad.hispanic_T['Two married parents'].tolist(),
         "name": "Two married parents"
     }
 
     trace4 = {
         "x": educationLoad.hispanic_T['Year'].tolist(),
-        "y": educationLoad.hispanic_home['No parents'].tolist(),
+        "y": educationLoad.hispanic_T['No parents'].tolist(),
         "name": "No parents"
     }
 
