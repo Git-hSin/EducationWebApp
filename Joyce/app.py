@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, render_template
-import book_data, censusLoad, educationLoad
+import book_data, censusLoad
 
 
 
@@ -93,6 +93,34 @@ def plot1_c():
     return jsonify(data)
 
 
+@app.route("/line2_c")
+def plot2_c():
+    data = [{
+        "x": censusLoad.df_full1['year'].tolist(),
+        "y": censusLoad.df_full1['PopEmployed'].tolist()}]
+    return jsonify(data)
+
+@app.route("/line3_c")
+def plot3_c():
+    data = [{
+        "x": censusLoad.df_full1['year'].tolist(),
+        "y": censusLoad.df_full1['EstMeanIncAll'].tolist()}]
+    return jsonify(data)
+
+@app.route("/line4_c")
+def plot4_c():
+    data = [{
+        "x": censusLoad.df_full2['year'].tolist(),
+        "y": censusLoad.df_full2['PropVal'].tolist()}]
+    return jsonify(data)
+
+@app.route("/line5_c")
+def plot5_c():
+    data = [{
+        "x": censusLoad.df_full2['year'].tolist(),
+        "y": censusLoad.df_full2['Population'].tolist()}]
+    return jsonify(data)
+
 
 
 @app.route("/count")
@@ -132,183 +160,9 @@ def test5():
 def index2():
     return render_template('index_test_button_book.html')
 
-
-
-
-
-@app.route("/asian")
-def test6():
-    trace1 = {
-        "x": educationLoad.asian_home_df['Year'].tolist(),
-        "y": educationLoad.asian_home_df['Mother only'].tolist(),
-        "name": "Mother only"        
-    }
-
-    trace2 = {
-        "x": educationLoad.asian_home_df['Year'].tolist(),
-        "y": educationLoad.asian_home_df['Father only'].tolist(),
-        "name": "Father only"          
-    }
-
-    trace3 = {
-        "x": educationLoad.asian_home_df['Year'].tolist(),
-        "y": educationLoad.asian_home_df['Two married parents'].tolist(),
-        "name": "Two married parents"          
-    }    
-
-    trace4 = {
-        "x": educationLoad.asian_home_df['Year'].tolist(),
-        "y": educationLoad.asian_home_df['No parent'].tolist(),
-        "name": "No parent"          
-    } 
-
-    data = [trace1, trace2, trace3, trace4]
-
-    return jsonify(data)
-
-@app.route("/hispanic")
-def test7():
-    trace1 = {
-        "x": educationLoad.hispanic_T['Year'].tolist(),
-        "y": educationLoad.hispanic_home['Mother only'].tolist(),
-        "name": "Mother only"
-    }
-
-    trace2 = {
-        "x": educationLoad.hispanic_T['Year'].tolist(),
-        "y": educationLoad.hispanic_home['Father only'].tolist(),
-        "name": "Father only"
-    }
-
-    trace3 = {
-        "x": educationLoad.hispanic_T['Year'].tolist(),
-        "y": educationLoad.hispanic_home['Two married parents'].tolist(),
-        "name": "Two married parents"
-    }
-
-    trace4 = {
-        "x": educationLoad.hispanic_T['Year'].tolist(),
-        "y": educationLoad.hispanic_home['No parent'].tolist(),
-        "name": "No parents"
-    }
-
-    data = [trace1, trace2, trace3, trace4]
-
-    return jsonify(data)
-
-@app.route("/black")
-def test8():
-    trace1 = {
-        "x": educationLoad.black_home_df['Year'].tolist(),
-        "y": educationLoad.black_home_df['Mother only'].tolist(),
-        "name": "Mother only"
-    }
-
-    trace2 = {
-        "x": educationLoad.black_home_df['Year'].tolist(),
-        "y": educationLoad.black_home_df['Father only'].tolist(),
-        "name": "Father only"
-    }
-
-    trace3 = {
-        "x": educationLoad.black_home_df['Year'].tolist(),
-        "y": educationLoad.black_home_df['Two married parents'].tolist(),
-        "name": "Two married parents"
-    }
-
-    trace4 = {
-        "x": educationLoad.black_home_df['Year'].tolist(),
-        "y": educationLoad.black_home_df['No parent'].tolist(),
-        "name": "No parents"
-    }
-
-    data = [trace1, trace2, trace3, trace4]
-
-    return jsonify(data)
-
-@app.route("/white")
-def test9():
-    trace1 = {
-        "x": educationLoad.white_home_df['Year'].tolist(),
-        "y": educationLoad.white_home_df['Mother only'].tolist(),
-        "name": "Mother only"
-    }
-
-    trace2 = {
-        "x": educationLoad.white_home_df['Year'].tolist(),
-        "y": educationLoad.white_home_df['Father only'].tolist(),
-        "name": "Father only"
-    }
-
-    trace3 = {
-        "x": educationLoad.white_home_df['Year'].tolist(),
-        "y": educationLoad.white_home_df['Two married parents'].tolist(),
-        "name": "Two married parents"
-    }
-
-    trace4 = {
-        "x": educationLoad.white_home_df['Year'].tolist(),
-        "y": educationLoad.white_home_df['No parent'].tolist(),
-        "name": "No parents"
-    }
-
-    data = [trace1, trace2, trace3, trace4]
-
-    return jsonify(data)
-
-@app.route("/college")
-def test10():
-    trace1 = {
-        "x": educationLoad.college_enrollment_data_df['Year'].tolist(),
-        "y": educationLoad.college_enrollment_data_df['White non-Hispanic'],
-        "name":"White"
-    }
-
-    trace2 = {
-        "x": educationLoad.college_enrollment_data_df['Year'].tolist(),
-        "y": educationLoad.college_enrollment_data_df['Black non-Hispanic '],
-        "name":"Black"
-    }
-
-    trace3 = {
-        "x": educationLoad.college_enrollment_data_df['Year'].tolist(),
-        "y": educationLoad.college_enrollment_data_df['Hispanic'],
-        "name":"Hispanic"
-    }
-
-    trace4 = {
-        "x": educationLoad.college_enrollment_data_df['Year'].tolist(),
-        "y": educationLoad.college_enrollment_data_df['Asian non-Hispanic'],
-        "name":"Asian"
-    }
-
-    trace5 = {
-        "x": educationLoad.college_enrollment_data_df['Year'].tolist(),
-        "y": educationLoad.college_enrollment_data_df['Pacific Islander non-Hispanic'],
-        "name":"Pacific Islander"
-    }
-
-    trace6 = {
-        "x": educationLoad.college_enrollment_data_df['Year'].tolist(),
-        "y": educationLoad.college_enrollment_data_df['American Indian/Alaska Native non-Hispanic'],
-        "name":"American Indian"
-    }
-
-    trace7 = {
-        "x": educationLoad.college_enrollment_data_df['Year'].tolist(),
-        "y": educationLoad.college_enrollment_data_df['Two or more races non-Hispanic'],
-        "name":"Two or more races"
-    }
-    data = [trace1, trace2, trace3, trace4, trace5, trace6, trace7]
-
-    return jsonify(data)
-
-
-@app.route("/education")
-def index3():
-    return render_template('index_education.html')
-
-
+@app.route("/census")
+def index2():
+    return render_template('index_test_button_census.html')
 
 if __name__ == "__main__":
     app.run(debug=True)

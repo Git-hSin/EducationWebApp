@@ -42,7 +42,8 @@ df_full1['PopEmployed'] = df_full1['PopEmployed'].astype('int')
 df_full1['MarriedPastYr'] = df_full1['MarriedPastYr'].astype('str')
 df_full1['EstMeanIncAll'] = df_full1['EstMeanIncAll'].astype('int')
 df_full1['PercentFemaleEmployed'] = df_full1['PercentFemaleEmployed'].astype(float)
-del df_full1[['zip','PercentFemaleEmployed']]
+del df_full1['zip']
+del df_full1['PercentFemaleEmployed']
 df_full1 = df_full1.groupby(['year']).mean().reset_index()
 
 
