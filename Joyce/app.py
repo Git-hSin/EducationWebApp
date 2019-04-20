@@ -29,44 +29,31 @@ def dropdownList():
 def testt1():
     if request.method == 'POST':
         df_variable1 = request.form['df_variable1']
-        #df_variable2 = request.form['df_variable2']
-        
+
         if df_variable1 in book_fields:
-           x = book_data.year_book_data
+           x1 = book_data.year_book_data
         if df_variable1 in census1_fields:
-           x = censusLoad.df_full1
+           x1 = censusLoad.df_full1
         if df_variable1 in census2_fields:
-           x = censusLoad.df_full2
+           x1 = censusLoad.df_full2
         
-        #if df_variable2 in book_fields:
-        #   y = book_data.year_book_data
-        #if df_variable2 in census1_fields:
-        #   y = censusLoad.df_full1
-        #if df_variable2 in census2_fields:
-        #   y = censusLoad.df_full2
-    return x
+
+        return x1
 
 @app.route("/dropdown_y", methods=['GET', 'POST'])
 def testt2():
     if request.method == 'POST':
-        #df_variable1 = request.form['df_variable1']
+
         df_variable2 = request.form['df_variable2']
-        
-        #if df_variable1 in book_fields:
-        #   x = book_data.year_book_data
-        #if df_variable1 in census1_fields:
-        #   x = censusLoad.df_full1
-        #if df_variable1 in census2_fields:
-        #   x = censusLoad.df_full2
-        
+                
         if df_variable2 in book_fields:
-           y = book_data.year_book_data
+           y1 = book_data.year_book_data
         if df_variable2 in census1_fields:
-           y = censusLoad.df_full1
+           y1 = censusLoad.df_full1
         if df_variable2 in census2_fields:
-           y = censusLoad.df_full2
+           y1 = censusLoad.df_full2
     
-    return y
+        return y1
         
         
 
@@ -77,33 +64,35 @@ def regrplot():
         df_variable1 = request.form['df_variable1']
         df_variable2 = request.form['df_variable2']
 
-        Reg_df = testt1().merge(testt2(), how = "inner", left_on ='year', right_on = 'year')
+        if df_variable1 in book_fields:
+            x1 = book_data.year_book_data
+        if df_variable1 in census1_fields:
+            x1 = censusLoad.df_full1
+        if df_variable1 in census2_fields:
+            x1 = censusLoad.df_full2
+
+        if df_variable2 in book_fields:
+            y1 = book_data.year_book_data
+        if df_variable2 in census1_fields:
+            y1 = censusLoad.df_full1
+        if df_variable2 in census2_fields:
+            y1 = censusLoad.df_full2
+
+        Reg_df = x1.merge(y1, how = "inner", left_on ='year', right_on = 'year')
         plot = sns.regplot(x=f'{df_variable1}', y=f'{df_variable2}', data = Reg_df)
         plot.savefig('regrplot', format='png')
         
     return render_template("regression.html")
 
         
-
-@app.route("/weeks", methods=['GET', 'POST'])
-def test():
-    if request.method == 'POST':
-        tag = request.form['yr']
-        if tag != '':
-            date_filtered_df = book_data.year_book_data[book_data.year_book_data['last_year'] == float(tag)]
-            data = [{
-                "x": date_filtered_df['last_year'].tolist(),
-                "y": date_filtered_df['weeks_on_list'].tolist()}]
-        else:
-            data = [{
-            "x": book_data.year_book_data['last_year'].tolist(),
-            "y": book_data.year_book_data['weeks_on_list'].tolist()}]
-    else:
-        data = [{
-        "x": book_data.year_book_data['last_year'].tolist(),
-        "y": book_data.year_book_data['weeks_on_list'].tolist()}]
-
+@app.route("/line1_c")
+def plot1_c():
+    data = [{
+        "x": censusLoad.df_full1['year'].tolist(),
+        "y": censusLoad.df_full1['PopInPoverty'].tolist()}]
     return jsonify(data)
+
+
 
 
 @app.route("/count")

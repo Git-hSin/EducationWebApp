@@ -42,8 +42,8 @@ df_full1['PopEmployed'] = df_full1['PopEmployed'].astype('int')
 df_full1['MarriedPastYr'] = df_full1['MarriedPastYr'].astype('str')
 df_full1['EstMeanIncAll'] = df_full1['EstMeanIncAll'].astype('int')
 df_full1['PercentFemaleEmployed'] = df_full1['PercentFemaleEmployed'].astype(float)
-
-
+del df_full1[['zip','PercentFemaleEmployed']]
+df_full1 = df_full1.groupby(['year']).mean().reset_index()
 
 
 urlsd = [(urlbeg + year + urlmidd + reportsd + urlend) for year in years]
@@ -60,7 +60,6 @@ df_full2['Per Capita Income'] = df_full2['Per Capita Income'].astype('str')
 df_full2['Household Income'] = df_full2['Household Income'].astype('str')
 df_full2['Population'] = df_full2['Population'].astype('int')
 df_full2['PropVal'] = df_full2['Population'].astype('int')
-
-
-
+del df_full2['zip']
+df_full2 = df_full2.groupby(['year']).mean().reset_index()
 
