@@ -199,7 +199,7 @@ def test7():
 
     trace4 = {
         "x": educationLoad.hispanic_T['Year'].tolist(),
-        "y": educationLoad.hispanic_home['No parents'].tolist(),
+        "y": educationLoad.hispanic_home['No parent'].tolist(),
         "name": "No parents"
     }
 
@@ -229,7 +229,7 @@ def test8():
 
     trace4 = {
         "x": educationLoad.black_home_df['Year'].tolist(),
-        "y": educationLoad.black_home_df['No parents'].tolist(),
+        "y": educationLoad.black_home_df['No parent'].tolist(),
         "name": "No parents"
     }
 
@@ -259,7 +259,7 @@ def test9():
 
     trace4 = {
         "x": educationLoad.white_home_df['Year'].tolist(),
-        "y": educationLoad.white_home_df['No parents'].tolist(),
+        "y": educationLoad.white_home_df['No parent'].tolist(),
         "name": "No parents"
     }
 
@@ -277,7 +277,7 @@ def test10():
 
     trace2 = {
         "x": educationLoad.college_enrollment_data_df['Year'].tolist(),
-        "y": educationLoad.college_enrollment_data_df['Black non-Hispanic'],
+        "y": educationLoad.college_enrollment_data_df['Black non-Hispanic '],
         "name":"Black"
     }
 
@@ -307,7 +307,7 @@ def test10():
 
     trace7 = {
         "x": educationLoad.college_enrollment_data_df['Year'].tolist(),
-        "y": educationLoad.college_enrollment_data_df['Two or more races'],
+        "y": educationLoad.college_enrollment_data_df['Two or more races non-Hispanic'],
         "name":"Two or more races"
     }
     data = [trace1, trace2, trace3, trace4, trace5, trace6, trace7]
