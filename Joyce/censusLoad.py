@@ -64,3 +64,15 @@ df_full2['PropVal'] = df_full2['Population'].astype('int')
 del df_full2['zip']
 df_full2 = df_full2.groupby(['year']).mean().reset_index()
 
+#import matplotlib.pyplot as plt
+#import seaborn as sns
+#sns.set(color_codes=True)
+#sns.set_style("darkgrid")
+#plt.rcParams['figure.figsize'] = 20, 15
+
+#x1= df_full1
+#y1= df_full2
+
+#Reg_df = x1.merge(y1, how = "inner", left_on ='year', right_on = 'year')
+#plot = sns.regplot(x='PopinPoverty', y='PropVal', data = Reg_df)
+#plot.savefig('regrplot.png')

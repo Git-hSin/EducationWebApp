@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, redirect, url_for
 import book_data, censusLoad
 
 
@@ -81,9 +81,10 @@ def regrplot():
 
     Reg_df = x1.merge(y1, how = "inner", left_on ='year', right_on = 'year')
     plot = sns.regplot(x=f'{df_variable1}', y=f'{df_variable2}', data = Reg_df)
-    plot.savefig('regrplot', format='png')
-        
-    return render_template("regression.html")
+    fig = plot.get_figure()
+    fig.savefig('regrplot', format='png')
+    
+    return redirect(url_for("regression.html"))
 
         
 @app.route("/line1_c")
